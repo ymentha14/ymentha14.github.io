@@ -1,0 +1,26 @@
+---
+layout: page
+title: C++ Multithreaded Coencapsulation
+subtitle: 
+---
+
+## Introduction
+The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent <a href="https://en.wikipedia.org/wiki/Single_cell_sequencing">RNA single cell sequencing.</a>: this would allow to let the RNA of the cell binds to the bead, which could be further down be processed in order to sequence the cell RNA expression for various genes. 
+
+## Implementation
+The challenge consisted thus in controlling the flow of the 2 channels (the bead channel and the cell channel) using the microscope camera and flow micro-controller: since the program had to be particularly reactive, concurrent programming was necessary. The program was implemented in C++ using object-oriented multithreaded code exclusively.<br>
+To do so, a <strong> PID controller </strong> was used in order to stabilize both the bead and the cell. The algorithms consists of a <strong> finite-state automaton </strong> alternating between the following states:
+ 1. EMPTY _(the bead channel flushes fluid untill a bead is detected in the zone of interest)_
+ 2. COMING: _(the bead is stabilized by the PID, the cell channel flushes fluid untill a cell is detected in the ZOI_)
+ 3. FLUSHING: _(both channels flush simultaneously: a 3rd PID synchronizes the 2 channels in order to coencapsulate the 2 elements)_
+<iframe src="https://drive.google.com/file/d/1TWqxpa5yqEisSSCaJzsjcDBWCgqoxsre/preview" width="640" height="480"></iframe>
+
+
+
+
+
+
+
+
+
+
