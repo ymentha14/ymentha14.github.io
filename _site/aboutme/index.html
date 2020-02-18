@@ -6,12 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>About me</title>
+  <title>About the author</title>
 
-  <meta name="author" content="Some Person" />
+  <meta name="author" content="Yann Mentha" />
 
-  
-  <meta name="description" content="Why you'd want to go on a date with me">
   
 
   <link rel="alternate" type="application/rss+xml" title="Fromage and ML - A summary of personnal courses/projects providing cheat sheet to help people using ML in general." href="http://localhost:5000/feed.xml" />
@@ -60,11 +58,11 @@
   
 
   
-  <meta property="og:title" content="About me" />
+  <meta property="og:title" content="About the author" />
   
 
    
-  <meta property="og:description" content="Why you'd want to go on a date with me">
+  <meta property="og:description" content="Hi! I am Yann. I created this website to share two of my passions, which are respectively... well Machine Learning and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this...">
   
 
 
@@ -84,11 +82,11 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="About me" />
+  <meta name="twitter:title" content="About the author" />
   
 
   
-  <meta name="twitter:description" content="Why you'd want to go on a date with me">
+  <meta name="twitter:description" content="Hi! I am Yann. I created this website to share two of my passions, which are respectively... well Machine Learning and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this...">
   
 
   
@@ -157,6 +155,26 @@
 
     <!-- TODO this file has become a mess, refactor it -->
 
+<style>
+.img-circular{
+    width: 20%;
+    height: 100%;
+    background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg');
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+       -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+</style>
 
 
 
@@ -168,12 +186,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-heading">
-          <h1>About me</h1>
-		  
-		    
-            <hr class="small">
-            <span class="page-subheading">Why you'd want to go on a date with me</span>
-			
+          <h1>About the author</h1>
 		  
 		  
 		  
@@ -191,18 +204,66 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <p>My name is Inigo Montoya. I have the following qualities:</p>
+      <head>
+<style>
+.img-circular{
+    width: 50%;
+    height: 50%;
+    display: block;
+    border-radius: 50%;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+* {
+    box-sizing: border-box;
+}
 
-<ul>
-  <li>I rock a great mustache</li>
-  <li>I’m extremely loyal to my family</li>
-</ul>
+.column {
+    float: left;
+             width: 33.33%;
+                      padding: 5px;
+}
 
-<p>What else do you need?</p>
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+               clear: both;
+                        display: table;
+}
+</style>
+</head>
 
-<h3 id="my-history">my history</h3>
+<div class="row" align="middle">
+  <div class="column">
+<img src="/img/girolle.jpg" class="img-circular" />
+</div>
+<div class="column">
+<img src="/img/yann.png" class="img-circular" />
+</div>
+<div class="column">
+<img src="/img/relu.png" class="img-circular" />
+</div>
+</div>
 
-<p>To be honest, I’m having some trouble remembering right now, so why don’t you just watch <a href="http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29">my movie</a> and it will answer <strong>all</strong> your questions.</p>
+<div>Hi! I am Yann.
+<br />
+<br />
+I created this website to share two of my passions, which are respectively... well Machine Learning and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this blog is the perfect way to share what I learn regularly.
+<br /> <br />
+I am always curious about new projects! If you are interested in a new ML adventure or cheese degustation, don't hesitate to <a href="https://www.linkedin.com/in/yann-mentha-1482aa192/"> contact me.</a> You can also download 
+<a href="https://drive.google.com/file/d/1mM3fqS-qBWtuJcjLtDGo2ySAQp2iI83g/view?usp=sharing"> my resume. </a>
+<br />
+<br />
+Hope to have of your news soon!
+<br /><br /> Yann
+</div>
+
 
 	    
     </div>
@@ -214,53 +275,36 @@
   <div class="container beautiful-jekyll-footer">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">RSS</span>
-              </a>
-            </li><li><a href="mailto:someone@example.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:yann.mentha@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">Email me</span>
               </a>
-            </li><li><a href="https://www.facebook.com/deanattali" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li><li><a href="https://github.com/daattali" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+            </li><li><a href="https://github.com/ymentha14" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">GitHub</span>
               </a>
-            </li><li><a href="https://twitter.com/daattali" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+            </li><li><a href="https://linkedin.com/in/yann-mentha-1482aa192/" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
-                <span class="sr-only">Twitter</span>
+                <span class="sr-only">LinkedIn</span>
               </a>
             </li></ul>
       <p class="copyright text-muted">
-      Some Person
+      Yann Mentha
       &nbsp;&bull;&nbsp;
       2020
 
-      
-      &nbsp;&bull;&nbsp;
-      <a href="http://localhost:5000/">MyWebsite.com</a>
       
 
       
       </p>
           <!-- Please don't remove this, keep my open source work credited :) -->
     <p class="theme-by text-muted">
-      Theme by
-      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
     </p>
       </div>
     </div>

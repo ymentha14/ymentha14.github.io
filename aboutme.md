@@ -1,16 +1,67 @@
 ---
-layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+layout: about
+title: About the author
+subtitle: 
 ---
+<head>
+<style>
+.img-circular{
+    width: 50%;
+    height: 50%;
+    display: block;
+    border-radius: 50%;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+* {
+    box-sizing: border-box;
+}
 
-My name is Inigo Montoya. I have the following qualities:
+.column {
+    float: left;
+             width: 33.33%;
+                      padding: 5px;
+}
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+               clear: both;
+                        display: table;
+}
+</style>
+</head>
 
-What else do you need?
+<div class="row" align = "middle">
+  <div class="column">
+<img src="/img/girolle.jpg" class = "img-circular">
+</div>
+<div class="column">
+<img src="/img/yann.png" class = "img-circular">
+</div>
+<div class="column">
+<img src="/img/relu.png" class = "img-circular">
+</div>
+</div>
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
+<div>Hi! I am Yann.
+<br>
+<br>
+I created this website to share two of my passions, which are respectively... well Machine Learning and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this blog is the perfect way to share what I learn regularly.
+<br> <br>
+I am always curious about new projects! If you are interested in a new ML adventure or cheese degustation, don't hesitate to <a href ="https://www.linkedin.com/in/yann-mentha-1482aa192/"> contact me.</a> You can also download 
+<a href="https://drive.google.com/file/d/1mM3fqS-qBWtuJcjLtDGo2ySAQp2iI83g/view?usp=sharing"> my resume. </a>
+<br>
+<br>
+Hope to have of your news soon!
+<br><br> Yann
+</div>
+
