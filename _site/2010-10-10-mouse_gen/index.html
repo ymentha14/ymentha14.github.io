@@ -124,6 +124,7 @@
               <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
               <a href="/2010-10-10-higg">Higg Boson classification</a>
               <a href="/2010-10-10-MLproj_ETH">ML project</a>
+              <a href="/2010-10-10-morse-decoder">Morse decoder</a>
             </div>
           </li>
         
@@ -131,7 +132,7 @@
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
             <div class="navlinks-children">
-              <a href="/cht_sheet/ml_cht_sheet">Machine Learning</a>
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
               <a href="/cht_sheet/spark_chtsheet">Spark</a>
             </div>
           </li>
@@ -157,8 +158,35 @@
 
 
 
+  <div id="header-big-imgs" data-num-img=1
+    
+	  
+	  
+	    
+		  data-img-src-1="/img/DNA.jpg"
+		
+	  
+    
+  ></div>
 
-<header class="header-section ">
+
+<header class="header-section has-img">
+
+<div class="big-img intro-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Network for Mouse Genetics</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
 
 <div class="intro-header no-img">
   <div class="container">
@@ -187,22 +215,27 @@
 
 <ul>
   <li>The genetic information on one hand can be systematically sequenced and analyzed for any individual. However, most of the DNA is silenced in most cells through epigenetic phenomenon such as chromatin condensation (link) leading to a lot of noisy and useless information in the genetic data.</li>
-  <li>On the other hand, protein expression levels are closer to the phenotype in that sense that the phenotype will directly depend of these. However, many techniques exist to quantify the concentration of any protein level, and these levels can vary according to many factors, or not be measured at all, leading to sparse dataset.
-Our approach consisted thus in trying to find a network-based technique which would be able to take advantage of the best of these 2 datasets.
+  <li>On the other hand, protein expression levels are closer to the phenotype in that sense that the phenotype will directly depend of these. However, many techniques exist to quantify the concentration of any protein level, and these levels can vary according to many factors, or not be measured at all, leading to sparse dataset.</li>
+</ul>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8hAgDilitcTKpKSKJxjqbmZ591arP6Kw6plS2lReE3z5BB4j26hAglHRaXxhG3XCWLm4ts06zfW9U/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p>Our approach consisted thus in trying to find a network-based technique which would be able to take advantage of the best of these 2 datasets.
 As a first step, we built a genetic-similarity based graph for the different mouse strains. Based on this graph, I developed a grid-search approach evaluating different combinations of gene/parameters in order to obtain a list of genes on which we would have chances to perform decently despite the of missing data and gene complexity.
-The main gene we decided to focus on was the hair coat color: in order to predict it, we used subsequently the following methods:</li>
+The main gene we decided to focus on was the hair coat color: in order to predict it, we used subsequently the following methods:</p>
+<ul>
   <li>Logistic regression</li>
   <li>Tikhonov classification</li>
   <li>Harmonic classification</li>
   <li>Graph Neural Network</li>
   <li>Recursive Feature selection (RFE)
-<br />
-These methods, along with the RFE allowed me to reach an accuracy of 98% : after further investigation, it turned out that the SNP we were working on coincided perfectly with the hair color-responsible genes. (Myo5a and …).
-you can access the full report [here][1]
-[1]:http://localhost:5000/download/mouse_genetic_report.pdf</li>
+<br /></li>
 </ul>
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8hAgDilitcTKpKSKJxjqbmZ591arP6Kw6plS2lReE3z5BB4j26hAglHRaXxhG3XCWLm4ts06zfW9U/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p>These methods, along with the RFE allowed me to reach an accuracy of 98% : after further investigation, it turned out that the SNP we were working on coincided perfectly with the hair color-responsible genes. (Myo5a and …).
+you can access the full report here.</p>
+
+<iframe src="https://drive.google.com/file/d/1c0hUkdUSp3KjXDLsiT5FXr9J8zGLVsx5/preview" width="640" height="480"></iframe>
 
 	    
         <div class="disqus-comments">

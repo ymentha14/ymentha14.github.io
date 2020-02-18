@@ -1,5 +1,5 @@
 CXX?= g++
-.PHONY: all run plot
+.PHONY: all run plot con
 
 con:
 	bundle exec jekyll serve& 2>&1 /dev/null

@@ -26,11 +26,12 @@ navbar-links:
     - Network of Mouse Genetics: "2010-10-10-mouse_gen"
     - Higg Boson classification: "2010-10-10-higg"
     - ML project: "2010-10-10-MLproj_ETH"
+    - Morse decoder: "2010-10-10-morse-decoder"
 
   Courses: "2010-10-10-courses"
 
   Cheat sheets: 
-    - Machine Learning: "cht_sheet/ml_cht_sheet"
+    - Machine Learning: "2010-10-10-ML_cheatsheet"
     - Spark: "cht_sheet/spark_chtsheet"
 
   Fromages:

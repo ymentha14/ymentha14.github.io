@@ -18,14 +18,23 @@
       </item>
     
       <item>
-        <title>Data Awareness Dunnhumby dataset</title>
+        <title>Visual Morse Code Decoder</title>
         <description>
           
-          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+          
+
+
+ Coming Soon 
+  
+
+
+The project aims at developing a program/application which would read and translate morse codes like in the following image into plain words in real time, using CNN analyzing the image flow and keeping tracks of the stacked information.
+
+
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-highh/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-highh/</guid>
+        <link>http://localhost:5000/2010-10-10-morse-decoder/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-morse-decoder/</guid>
       </item>
     
       <item>
@@ -43,7 +52,7 @@
         <title>Data Awareness Dunnhumby dataset</title>
         <description>
           
-          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+          Full data story We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-ada/</link>
@@ -51,10 +60,13 @@
       </item>
     
       <item>
-        <title>Data Awareness Dunnhumby dataset</title>
+        <title>A ML approach to determine chemical shifts in NMR</title>
         <description>
           
-          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+          Introduction
+TODO
+
+
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-NMR/</link>
@@ -76,11 +88,45 @@
         <title>List of Courses</title>
         <description>
           
-          Introduction to Machine Learning Prof. Andrea Krause, ETH High Throughput Computing Prof. Introduction to ML High throughput Computing Algorithms, Probability and Computing Big Data for engineers Applied Data Analysis Machine Learning Artificial Intelligence A Network Tour of Data Science Graph Theory Stochastic Models for Communication Formal Methods and Functionnal Programming...
+          Current Courses Deep Learning Prof. François Fleuret Lab in Data Science Dr. Eric Bouillet Optimization for Machine Learning Prof. Martin Jaggi Data visualization Dr. Laurent-Gilles Marie Vuillon Master Courses Applied Data Analysis Prof. Robert West (EPFL): patati Machine Learning Prof. Martin Jaggi (EPFL) patata A Network Tour of Data Science...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-courses/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-courses/</guid>
+      </item>
+    
+      <item>
+        <title>Machine Learning Cheat Sheet</title>
+        <description>
+          
+          
+
+
+ This is a Cheat sheet summarizing the diverse subjects treated as in the CS-433 Machine Learning Course in EPFL treating the following subjects: 
+
+
+
+  
+     Linear Regression 
+     MAP estimation 
+     test 
+  
+
+
+
+  
+     MLE 
+     kakou 
+  
+
+
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-ML_cheatsheet/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-ML_cheatsheet/</guid>
       </item>
     
   </channel>

@@ -4,8 +4,13 @@ title: Fromage & ML
 subtitle: A Website where you'll find advices about ML. And Cheese.
 use-site-title: true
 ---
+
+<hr>
+
+<h1 align="middle" > Projects </h1>
  <div class="posts-list">
   {% for post in site.posts %}
+    {% if post.path contains 'projects' %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
@@ -52,6 +57,7 @@ use-site-title: true
     {% endif %}
 
    </article>
+   {% endif %}
   {% endfor %}
 </div>
 
