@@ -5,7 +5,6 @@ title: Fromage and ML
 
 # Short description of your site
 description: A summary of personnal courses/projects providing cheat sheet to help people using ML in general.
-
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -21,17 +20,17 @@ description: A summary of personnal courses/projects providing cheat sheet to he
 # List of links in the navigation bar
 navbar-links:
   Projects:
-    - Multithreaded Coencaps: "projects/coencaps"
-    - NMR and ML: "projects/NMR"
-    - Data awareness/food NLP: "projects/ada"
-    - Network of Mouse Genetics: "projects/mouse_gen"
-    - Higg Boson classification: "projects/higg"
-    - ML project: "projects/MLproj_ETH"
+    - Multithreaded Coencaps: "/2010-10-10-coencaps"
+    - NMR and ML: "2010-10-10-NMR"
+    - Data awareness/food NLP: "2010-10-10-ada"
+    - Network of Mouse Genetics: "2010-10-10-mouse_gen"
+    - Higg Boson classification: "2010-10-10-higg"
+    - ML project: "2010-10-10-MLproj_ETH"
 
-  Courses: "courses/courses"
+  Courses: "2010-10-10-courses"
 
   Cheat sheets: 
-    - Machine Learning: "cht_sheet/ML_chtsheet"
+    - Machine Learning: "cht_sheet/ml_cht_sheet"
     - Spark: "cht_sheet/spark_chtsheet"
 
   Fromages:

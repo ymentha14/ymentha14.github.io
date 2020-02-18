@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>404 - Page not found</title>
+  <title>C++ Multithreaded Coencapsulation</title>
 
   <meta name="author" content="Some Person" />
 
@@ -58,26 +58,19 @@
   
 
   
-  <meta property="og:title" content="404 - Page not found" />
+  <meta property="og:title" content="C++ Multithreaded Coencapsulation" />
   
 
    
-  <meta property="og:description" content="
-  Whoops, this page doesn't exist.
-  Move along. (404 error)
-  
-
-  
-
-">
+  <meta property="og:description" content="Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:5000/404.html" />
-  <link rel="canonical" href="http://localhost:5000/404.html" />
+  <meta property="og:url" content="http://localhost:5000/2010-10-10-coencaps/" />
+  <link rel="canonical" href="http://localhost:5000/2010-10-10-coencaps/" />
   
 
   
@@ -89,18 +82,11 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="404 - Page not found" />
+  <meta name="twitter:title" content="C++ Multithreaded Coencapsulation" />
   
 
   
-  <meta name="twitter:description" content="
-  Whoops, this page doesn't exist.
-  Move along. (404 error)
-  
-
-  
-
-">
+  <meta name="twitter:description" content="Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...">
   
 
   
@@ -166,17 +152,66 @@
 </nav>
 
 
-    <div class="intro-header"></div>
+    <!-- TODO this file has become a mess, refactor it -->
 
-<div role="main" class="container">
-  <div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
 
-  <img src="/img/404-southpark.jpg" />
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>C++ Multithreaded Coencapsulation</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</header>
 
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h2 id="introduction">Introduction</h2>
+<p>The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent <a href="https://en.wikipedia.org/wiki/Single_cell_sequencing">RNA single cell sequencing.</a>: this would allow to let the RNA of the cell binds to the bead, which could be further down be processed in order to sequence the cell RNA expression for various genes.</p>
+
+<h2 id="implementation">Implementation</h2>
+<p>The challenge consisted thus in controlling the flow of the 2 channels (the bead channel and the cell channel) using the microscope camera and flow micro-controller: since the program had to be particularly reactive, concurrent programming was necessary. The program was implemented in C++ using object-oriented multithreaded code exclusively.<br />
+To do so, a <strong> PID controller </strong> was used in order to stabilize both the bead and the cell. The algorithms consists of a <strong> finite-state automaton </strong> alternating between the following states:</p>
+<ol>
+  <li>EMPTY <em>(the bead channel flushes fluid untill a bead is detected in the zone of interest)</em></li>
+  <li>COMING: <em>(the bead is stabilized by the PID, the cell channel flushes fluid untill a cell is detected in the ZOI</em>)</li>
+  <li>FLUSHING: <em>(both channels flush simultaneously: a 3rd PID synchronizes the 2 channels in order to coencapsulate the 2 elements)</em></li>
+</ol>
+<iframe src="https://drive.google.com/file/d/1TWqxpa5yqEisSSCaJzsjcDBWCgqoxsre/preview" width="640" height="480"></iframe>
+
+
+	    
+        <div class="disqus-comments">
+	        
+        </div>
+	        
+        <div class="staticman-comments">
+          
+
+        </div>
+        <div class="justcomments-comments">
+          
+        </div>
+	    
+    </div>
+  </div>
 </div>
 
 

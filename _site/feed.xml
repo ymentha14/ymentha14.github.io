@@ -7,81 +7,80 @@
     <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>First post</title>
-        <description>
-          Each post also has a subtitle - 
-          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
-        </description>
-        <pubDate>Sat, 28 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-02-28-test-markdown/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-02-28-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Flak00000 it till you make it</title>
-        <description>
-          Excerpt from Soulshaping by Jeff Brown - 
-          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
-        </description>
-        <pubDate>Thu, 26 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-02-26-flake-it-till-you-make-it/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-02-26-flake-it-till-you-make-it/</guid>
-      </item>
-    
-      <item>
-        <title>To be</title>
-        <description>
-          ... or not to be? - 
-          To be, or not to be–that is the question: Whether ‘tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep– No more–and by a sleep to say we...
-        </description>
-        <pubDate>Fri, 13 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-02-13-hamlet-monologue/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-02-13-hamlet-monologue/</guid>
-      </item>
-    
-      <item>
-        <title>Dear diary</title>
+        <title>Network for Mouse Genetics</title>
         <description>
           
-          What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive! I’m thinking...
+          Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype. In fact, both the...
         </description>
-        <pubDate>Tue, 27 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-01-27-dear-diary/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-01-27-dear-diary/</guid>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-mouse_gen/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-mouse_gen/</guid>
       </item>
     
       <item>
-        <title>Soccer</title>
-        <description>
-          Best sport ever! - 
-          From Wikipedia: Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world’s most popular sport.[3][4][5][6] The game is played on a rectangular...
-        </description>
-        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-01-19-soccer/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-01-19-soccer/</guid>
-      </item>
-    
-      <item>
-        <title>Pirates arrrr</title>
+        <title>Data Awareness Dunnhumby dataset</title>
         <description>
           
-          Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the...
+          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
         </description>
-        <pubDate>Thu, 15 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-01-15-pirates/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-01-15-pirates/</guid>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-highh/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-highh/</guid>
       </item>
     
       <item>
-        <title>Firssfsfost!</title>
+        <title>C++ Multithreaded Coencapsulation</title>
         <description>
           
-          This is my first post, how exciting!
-
+          Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...
         </description>
-        <pubDate>Sun, 04 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:5000/2015-01-04-first-post/</link>
-        <guid isPermaLink="true">http://localhost:5000/2015-01-04-first-post/</guid>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-coencaps/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-coencaps/</guid>
+      </item>
+    
+      <item>
+        <title>Data Awareness Dunnhumby dataset</title>
+        <description>
+          
+          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-ada/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-ada/</guid>
+      </item>
+    
+      <item>
+        <title>Data Awareness Dunnhumby dataset</title>
+        <description>
+          
+          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-NMR/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-NMR/</guid>
+      </item>
+    
+      <item>
+        <title>Data Awareness Dunnhumby dataset</title>
+        <description>
+          
+          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-MLproj_ETH/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-MLproj_ETH/</guid>
+      </item>
+    
+      <item>
+        <title>List of Courses</title>
+        <description>
+          
+          Introduction to Machine Learning Prof. Andrea Krause, ETH High Throughput Computing Prof. Introduction to ML High throughput Computing Algorithms, Probability and Computing Big Data for engineers Applied Data Analysis Machine Learning Artificial Intelligence A Network Tour of Data Science Graph Theory Stochastic Models for Communication Formal Methods and Functionnal Programming...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-courses/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-courses/</guid>
       </item>
     
   </channel>
