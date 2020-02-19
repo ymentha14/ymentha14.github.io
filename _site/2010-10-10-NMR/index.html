@@ -11,8 +11,10 @@
   <meta name="author" content="Yann Mentha" />
 
   
+  <meta name="description" content="Lab. of Computational Science and Modeling (EPFL)">
+  
 
-  <link rel="alternate" type="application/rss+xml" title="Fromage and ML - A summary of personnal courses/projects providing cheat sheet to help people using ML in general." href="http://localhost:5000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Fromage & Programming - A summary of personnal courses/projects providing cheat sheet to help people starting to program in general." href="http://localhost:5000/feed.xml" />
 
   
 
@@ -62,10 +64,7 @@
   
 
    
-  <meta property="og:description" content="Introduction
-TODO
-
-">
+  <meta property="og:description" content="Lab. of Computational Science and Modeling (EPFL)">
   
 
 
@@ -89,10 +88,7 @@ TODO
   
 
   
-  <meta name="twitter:description" content="Introduction
-TODO
-
-">
+  <meta name="twitter:description" content="Lab. of Computational Science and Modeling (EPFL)">
   
 
   
@@ -117,7 +113,7 @@ TODO
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage and ML</a></div>
+      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage & Programming</a></div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
@@ -128,9 +124,10 @@ TODO
               <a href="/2010-10-10-NMR">NMR and ML</a>
               <a href="/2010-10-10-ada">Data awareness/food NLP</a>
               <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
-              <a href="/2010-10-10-higg">Higg Boson classification</a>
-              <a href="/2010-10-10-MLproj_ETH">ML project</a>
+              <a href="/2010-10-10-higg">Higg Boson competition</a>
+              <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
               <a href="/2010-10-10-morse-decoder">Morse decoder</a>
+              <a href="/2010-10-10-pokemon">Pokemon emulator</a>
             </div>
           </li>
         
@@ -139,7 +136,7 @@ TODO
             <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
             <div class="navlinks-children">
               <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
-              <a href="/cht_sheet/spark_chtsheet">Spark</a>
+              <a href="/2010-10-10-spark_cheatsheet">Spark</a>
             </div>
           </li>
         
@@ -185,6 +182,11 @@ TODO
         <div class="page-heading">
           <h1>A ML approach to determine chemical shifts in NMR</h1>
 		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Lab. of Computational Science and Modeling (EPFL)</span>
+			
+		  
 		  
 		  
         </div>
@@ -200,6 +202,11 @@ TODO
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-heading">
           <h1>A ML approach to determine chemical shifts in NMR</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Lab. of Computational Science and Modeling (EPFL)</span>
+			
 		  
 		  
 		  
@@ -217,9 +224,24 @@ TODO
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <h1 id="introduction">Introduction</h1>
-<p>TODO</p>
-<iframe src="https://drive.google.com/file/d/1tVm0JO-4Iun7YRKL3Aj9q5Z8FvDQ8Usb/preview" width="640" height="480"></iframe>
+      <p align="right"><i>In collaboration with Gianni Giusto and Maxime Epars</i><br /> 
+You can access the full report <a href="https://drive.google.com/file/d/1tVm0JO-4Iun7YRKL3Aj9q5Z8FvDQ8Usb/view?usp=sharing"> here </a>
+</p>
+<h2 id="introduction">Introduction</h2>
+
+<p>Nuclear magnetic resonance (NMR) spectroscopy is a method used to determine the chemical structure of a molecule based on the principle of the resonance frequency: any nuclear spin in a given structure depends on its chemical local environment (i.e. <em>shielding</em>) The change in resonance frequency compared to a standard reference is represented by the chemical shift. Solid-state NMR represents a specific type of this powerful method tailored to amorphous solids where, by definition, magnetic fields are orientation-dependent. Accurate methods using plane wave density functional theory (DFT) have been developed to calculate chemical shifts. However, these techniques are computationally costly and hence fail to compute the latter for large or complex molecular structures.
+Machine learning tools may potentially offer a new way to compute the chemical shifts with a reasonable computational cost while maintaining high accuracy.</p>
+
+<h1 id="implementation">Implementation</h1>
+<p>The aim of the project was then to build a model able to predict chemical shieldings of hydrogen atoms from a few hundreds of crystal structures from the <a href="https://www.ccdc.cam.ac.uk/solutions/csd-system/components/csd/"> Cambridge Structural Database (CSD)</a>  based on their local environment. Note that the chemical shift can easily be computed from the shielding value and its reference. The challenge consisted therefore in determining this shield, which was precisely the target of the considered training task.</p>
+
+<h1 id="methods">Methods</h1>
+<p>To tackle the challenge, we implemented a pipeline using various methods including Linear Models, Feature Selection, Neural Networks (various pytorch architectures), Ensemble methods and KernelPCA.<br /> In addition, some metric were developped for the special needs of the project.</p>
+
+<h1 id="results">Results</h1>
+<p>A final MSE of 0.53 was obtained on a 4-fold CV, thus outperforming largely the initial linear proposed linear models.</p>
+
+<p>Special thanks to Prof. Michele Ceriotti and Felix Musil for their help and letting us work on this dataset.</p>
 
 	    
         <div class="disqus-comments">

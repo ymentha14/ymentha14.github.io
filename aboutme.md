@@ -55,13 +55,12 @@ subtitle:
 <div>Hi! I am Yann.
 <br>
 <br>
-I created this website to share two of my passions, which are respectively... well Machine Learning and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this blog is the perfect way to share what I learn regularly.
+I created this website to share two of my passions, which are respectively... well Programming and Cheese. Even if these two domains can seem at first sight pretty different, they are both universes that I try to discover each day a bit more, and this blog is the perfect way to share what I learn regularly in both domains.
 <br> <br>
 I am always curious about new projects! If you are interested in a new ML adventure or cheese degustation, don't hesitate to <a href ="https://www.linkedin.com/in/yann-mentha-1482aa192/"> contact me.</a> You can also download 
-<a href="https://drive.google.com/file/d/1mM3fqS-qBWtuJcjLtDGo2ySAQp2iI83g/view?usp=sharing"> my resume. </a>
+<a href="https://drive.google.com/file/d/1mM3fqS-qBWtuJcjLtDGo2ySAQp2iI83g/view?usp=sharing"> my resume </a> or check my  <a href="https://www.linkedin.com/in/yann-mentha-1482aa192/"> linkedin </a>.
 <br>
 <br>
 Hope to have of your news soon!
-<br><br> Yann
-</div>
+<br><p align="right" style="margin-right: 150px;">Yann</p>
 

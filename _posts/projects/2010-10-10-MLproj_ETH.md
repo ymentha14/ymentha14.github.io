@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Data Awareness Dunnhumby dataset
+title: Machine Learning Competition ETH
 subtitle: 
 ---
-We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) <br>
-Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item of our dataset, since these were not present. I personally developed the recursive algorithm associating any food article of our dataset to the semantically closest corresponding article in an equivalent database from the U.S department of agriculture which in turn did have nutritional values. <br> For instance, the article “Fondue fromage gruyere” was to be associated with “art. 34 fondue moitié-moitié” rather than “Pizza fromage gruyere” since in the former case, the nutritional values would fit better.
-The following parsing algorithm was therefore developed in order to analyze and associate the words of any article:
+<p align="right">
+<i>In collaboration with Marijn Van der Meer</i><br>You can access the <a href="https://github.com/ymentha14/ML_competitionETH18"> github repo </a><br></p>
+## Introduction
+As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one with 21000 entries and an unlabelled one with 9000 entries.The label was a discrete variable taking 10 distinct values (0-9) 
+The goal consisted in predicting the label of a test set of 9000 entries with the highest accuracy possible. Three baselines were defined (easy, middle hard)
 
-IMAGE
+## Implementation
+As this was obviously a semi-supervised problem, the method which gave the best results turned out to be [pseudo-labelling](https://www.analyticsvidhya.com/blog/2017/09/pseudo-labelling-semi-supervised-learning-technique/) coupled with early <strong> stopping, batch normalization,PCA preprocessing and dropout.</strong> A bagging method was tried as well, but this did not give any result.
 
-The challenge consisted mainly in defining a score metric for the item words, since some words describe “nutritionally” better the articles  than others (_for instance in “pizza olive and oil”, “pizza” turns out to be the most relevant word_). <br>
+## Results
+We obtained a final accuracy of 89.771% on a 5-Fold cross-validation and 88.883% on the provided test set. This made us pass the hard baseline, and contributed to my final grade of 6/6 over the whole course.
 
-This preprocessing allowed me to perform further analysis, including an outlier estimation highlighting the households presenting potential risky consumption behaviors.
-The rest of the project consisted in developing and maintaining the project blog that you can access in its totality on the following link:
+## Retrospective Improvements
+A lot of time was spent changing minor settings: it would have been interesting to implement the network in pytorch rather than using keras, and passing from one architecture to the other with less training.

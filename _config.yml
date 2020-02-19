@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Fromage and ML
+title: Fromage & Programming
 
 # Short description of your site
-description: A summary of personnal courses/projects providing cheat sheet to help people using ML in general.
+description: A summary of personnal courses/projects providing cheat sheet to help people starting to program in general.
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -24,15 +24,16 @@ navbar-links:
     - NMR and ML: "2010-10-10-NMR"
     - Data awareness/food NLP: "2010-10-10-ada"
     - Network of Mouse Genetics: "2010-10-10-mouse_gen"
-    - Higg Boson classification: "2010-10-10-higg"
-    - ML project: "2010-10-10-MLproj_ETH"
+    - Higg Boson competition: "2010-10-10-higg"
+    - ML competition ETH: "2010-10-10-MLproj_ETH"
     - Morse decoder: "2010-10-10-morse-decoder"
+    - Pokemon emulator: "2010-10-10-pokemon"
 
   Courses: "2010-10-10-courses"
 
   Cheat sheets: 
     - Machine Learning: "2010-10-10-ML_cheatsheet"
-    - Spark: "cht_sheet/spark_chtsheet"
+    - Spark: "2010-10-10-spark_cheatsheet"
 
   Fromages:
     - Brie Bleu: "brie_bleu"
@@ -52,9 +53,9 @@ port: 5000
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-#navbar-col: "#F5F5F5"
+navbar-col: "#555555"
 navbar-text-col: "#F5F5F5"
-navbar-children-col: "#999999"
+navbar-children-col: "#333333"
 page-col: "0085A1"
 link-col: "#008AFF"
 hover-col: "#0085A1"
@@ -65,7 +66,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/cheese.jpg"
+# navbar-img: "/img/bgimage.jpg"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 

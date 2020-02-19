@@ -11,8 +11,10 @@
   <meta name="author" content="Yann Mentha" />
 
   
+  <meta name="description" content="Lab. of Systems Biology and Genetics (EPFL)">
+  
 
-  <link rel="alternate" type="application/rss+xml" title="Fromage and ML - A summary of personnal courses/projects providing cheat sheet to help people using ML in general." href="http://localhost:5000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Fromage & Programming - A summary of personnal courses/projects providing cheat sheet to help people starting to program in general." href="http://localhost:5000/feed.xml" />
 
   
 
@@ -62,7 +64,7 @@
   
 
    
-  <meta property="og:description" content="Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...">
+  <meta property="og:description" content="Lab. of Systems Biology and Genetics (EPFL)">
   
 
 
@@ -86,7 +88,7 @@
   
 
   
-  <meta name="twitter:description" content="Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...">
+  <meta name="twitter:description" content="Lab. of Systems Biology and Genetics (EPFL)">
   
 
   
@@ -111,7 +113,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage and ML</a></div>
+      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage & Programming</a></div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
@@ -122,9 +124,10 @@
               <a href="/2010-10-10-NMR">NMR and ML</a>
               <a href="/2010-10-10-ada">Data awareness/food NLP</a>
               <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
-              <a href="/2010-10-10-higg">Higg Boson classification</a>
-              <a href="/2010-10-10-MLproj_ETH">ML project</a>
+              <a href="/2010-10-10-higg">Higg Boson competition</a>
+              <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
               <a href="/2010-10-10-morse-decoder">Morse decoder</a>
+              <a href="/2010-10-10-pokemon">Pokemon emulator</a>
             </div>
           </li>
         
@@ -133,7 +136,7 @@
             <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
             <div class="navlinks-children">
               <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
-              <a href="/cht_sheet/spark_chtsheet">Spark</a>
+              <a href="/2010-10-10-spark_cheatsheet">Spark</a>
             </div>
           </li>
         
@@ -179,6 +182,11 @@
         <div class="page-heading">
           <h1>C++ Multithreaded Coencapsulation</h1>
 		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Lab. of Systems Biology and Genetics (EPFL)</span>
+			
+		  
 		  
 		  
         </div>
@@ -194,6 +202,11 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-heading">
           <h1>C++ Multithreaded Coencapsulation</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Lab. of Systems Biology and Genetics (EPFL)</span>
+			
 		  
 		  
 		  
@@ -212,17 +225,44 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <h2 id="introduction">Introduction</h2>
-<p>The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent <a href="https://en.wikipedia.org/wiki/Single_cell_sequencing">RNA single cell sequencing.</a>: this would allow to let the RNA of the cell binds to the bead, which could be further down be processed in order to sequence the cell RNA expression for various genes.</p>
+<p>The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively.</p>
+<div align="middle">
+<img src="/img/chip_scheme.png" />
+</div>
+<figcaption> <i> Microship used for coencapsulation: A. Cell channel B. Bead channel C. Merged Channel D. Lysis buffer channel </i>
+</figcaption>
 
+<p>Once coencapsulated, the lysis buffer dissolves the cell membrane, releasing the expressed RNA in the fluid and letting it bind to the RNA primers of the bead: this allows sub-sequent <a href="https://en.wikipedia.org/wiki/Single_cell_sequencing">RNA single cell sequencing.</a>. 
+<br /></p>
+
+<p>I therefore had the opportunity to undertake a one-year internship in order to develop an object-oriented multithreaded library able to automate this coencapsulation process: a first version developped by the researchers of the lab already existed, but was making use of valves which in turn created a lot of turbulence in both channels, lowering thus the rate of successful coencapsulations. My goal consisted so in creating a valve-free version of this process, using flow pressures exclusively.</p>
 <h2 id="implementation">Implementation</h2>
-<p>The challenge consisted thus in controlling the flow of the 2 channels (the bead channel and the cell channel) using the microscope camera and flow micro-controller: since the program had to be particularly reactive, concurrent programming was necessary. The program was implemented in C++ using object-oriented multithreaded code exclusively.<br />
-To do so, a <strong> PID controller </strong> was used in order to stabilize both the bead and the cell. The algorithms consists of a <strong> finite-state automaton </strong> alternating between the following states:</p>
+<p>The challenge consisted thus in controlling the flows of the 2 channels (the bead channel and the cell channel) using the microscope camera and a computer driven flow micro-controller: the program had to be able to execute the following tasks:</p>
+<ul>
+<li> Detect the arrival of an upcoming cell/bead in the microscope field of view </li>
+<li> Stabilize the detected cell/bead in a predefined region by balancing pressures of both channels while keeping pushing flow in the empty channl untill the arrival of the second cell/bead. </li>
+<li> Detect arrival of the second cell/bead, and synchronize both elements such that they end up in the merged channel at the same time. </li>
+<li> In case multiple beads/cells appear simultaneously in the field of view, the program needs to keep track of all of them and handle pressures such that no coencapsulations are missed </li>
+</ul>
+<p>Since the program had to be particularly reactive, concurrent programming was necessary. Python implementation showed poor responsiveness, C++ was thus preferred using object-oriented multithreaded code exclusively.<br /></p>
+
+<p>In order to let the computer react appropriately to the multiple possible situations and to stabilize efficiently both the beads and the cells, a <strong> PID controller </strong> was used. The algorithm consisted of a <strong> finite-state automaton </strong> alternating between the following states:</p>
+
 <ol>
-  <li>EMPTY <em>(the bead channel flushes fluid untill a bead is detected in the zone of interest)</em></li>
-  <li>COMING: <em>(the bead is stabilized by the PID, the cell channel flushes fluid untill a cell is detected in the ZOI</em>)</li>
-  <li>FLUSHING: <em>(both channels flush simultaneously: a 3rd PID synchronizes the 2 channels in order to coencapsulate the 2 elements)</em></li>
+  <li><b><font color="blue">EMPTY</font></b> <em>(the bead channel flushes fluid untill a bead is detected in the zone of interest)</em></li>
+  <li><b><font color="blue">COMING</font></b>: <em>(the bead is stabilized by the PID, the cell channel flushes fluid untill a cell is detected in the ZOI</em>)</li>
+  <li><b><font color="blue">FLUSHING</font></b>: <em>(both channels flush simultaneously: a 3rd PID synchronizes the 2 channels in order to coencapsulate the 2 elements)</em></li>
+  <li><b><font color="blue">RECOVERING</font></b>: <em>When 2 beads arrive  at the same time, the program needs to coencapsulate the first bead while keeping the second bead in the channel.</em>
+    <h2 id="results">Results</h2>
+    <p>The program was able to perform bead-bead coencapsulation with an accuracy greater than 95% at a rate of more than 1000 coencapsulation per hour depending on the bead concentration.</p>
+  </li>
 </ol>
 <iframe src="https://drive.google.com/file/d/1TWqxpa5yqEisSSCaJzsjcDBWCgqoxsre/preview" width="640" height="480"></iframe>
+
+<h2 id="retrospective-improvements">Retrospective improvements</h2>
+<p>The coencapsulation scheme would have be a very good practical case for some <strong> Reinforcement Learning </strong> that I did not know of about at that time. However, python implementation would still have been a bottleneck problem, C++ implentation of RL should be feasible though.</p>
+
+<p>Special thanks to Prof. Bart Deplancke and Johannes Bues for helping me in this project!</p>
 
 
 	    

@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fromage and ML</title>
-    <description>A summary of personnal courses/projects providing cheat sheet to help people using ML in general.</description>
+    <title>Fromage &amp; Programming</title>
+    <description>A summary of personnal courses/projects providing cheat sheet to help people starting to program in general.</description>
     <link>http://localhost:5000/</link>
     <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Pokemon RTS</title>
+        <description>
+          
+          Description
+A project I coded a while ago allowing you to compile a RTS ( ;) ) version of pokemon. it should arrive pretty soon! Just need to clean and upload it..
+
+
+
+ Coming Soon 
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-pokemon/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-pokemon/</guid>
+      </item>
     
       <item>
         <title>Network for Mouse Genetics</title>
         <description>
           
-          Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype. In fact, both the...
+          In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-mouse_gen/</link>
@@ -21,14 +41,14 @@
         <title>Visual Morse Code Decoder</title>
         <description>
           
-          
+          The project aims at developing a program/application which would read and translate morse codes like in the following image into plain words in real time, using CNN analyzing the image flow and keeping tracks of the stacked information.
 
+—
+—
 
  Coming Soon 
   
 
-
-The project aims at developing a program/application which would read and translate morse codes like in the following image into plain words in real time, using CNN analyzing the image flow and keeping tracks of the stacked information.
 
 
         </description>
@@ -38,10 +58,21 @@ The project aims at developing a program/application which would read and transl
       </item>
     
       <item>
-        <title>C++ Multithreaded Coencapsulation</title>
+        <title>Higg Boson Competition</title>
         <description>
           
-          Introduction The goal of the project consisted in coencapsulating micro-beads of RNA primers with cells into a single drop of lysis buffer in order to allow sub-sequent RNA single cell sequencing.: this would allow to let the RNA of the cell binds to the bead, which could be further down...
+          In collaboration with Gianni Giusto and Maxime EparsYou can access the github repo Introduction As part of the CS-433 master course of Machine Learning, an AI crowd competition took was organized for the students: the goal consisted in developing ourself the methods used such as KFold cross-validation, stochastic gradient descent,...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-higg/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-higg/</guid>
+      </item>
+    
+      <item>
+        <title>C++ Multithreaded Coencapsulation</title>
+        <description>
+          Lab. of Systems Biology and Genetics (EPFL) - 
+          Introduction The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively. Microship used for coencapsulation: A. Cell channel B. Bead channel C....
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-coencaps/</link>
@@ -52,7 +83,7 @@ The project aims at developing a program/application which would read and transl
         <title>Data Awareness Dunnhumby dataset</title>
         <description>
           
-          Full data story We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values...
+          In collaboration with Raphael Reis, Daniel Pechao and Jérôme LüscherYou can access the full data story here Introduction We proposed an in-depth analysis of the complete-journey dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby supermarket chain. Implementation Since more than 90% of our...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-ada/</link>
@@ -62,11 +93,8 @@ The project aims at developing a program/application which would read and transl
       <item>
         <title>A ML approach to determine chemical shifts in NMR</title>
         <description>
-          
-          Introduction
-TODO
-
-
+          Lab. of Computational Science and Modeling (EPFL) - 
+          In collaboration with Gianni Giusto and Maxime Epars You can access the full report here Introduction Nuclear magnetic resonance (NMR) spectroscopy is a method used to determine the chemical structure of a molecule based on the principle of the resonance frequency: any nuclear spin in a given structure depends on...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-NMR/</link>
@@ -74,10 +102,10 @@ TODO
       </item>
     
       <item>
-        <title>Data Awareness Dunnhumby dataset</title>
+        <title>Machine Learning Competition ETH</title>
         <description>
           
-          We proposed an in-depth analysis of the dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby company (an american supermarket chain) Since more than 90% of our data consisted of food items, we were naturally interested in scrapping the nutritional values for each item...
+          In collaboration with Marijn Van der MeerYou can access the github repo Introduction As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-MLproj_ETH/</link>
@@ -93,6 +121,30 @@ TODO
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-courses/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-courses/</guid>
+      </item>
+    
+      <item>
+        <title>Spark Cheat Sheet</title>
+        <description>
+          
+          
+
+
+ This is a Cheat sheet aiming at helping SPARK beginner users, as the error messages for this library can be (quite) frustrating when it comes to debug the code. 
+---
+---
+
+ Coming Soon 
+  
+
+
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-spark_cheatsheet/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-spark_cheatsheet/</guid>
       </item>
     
       <item>

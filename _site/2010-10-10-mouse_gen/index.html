@@ -12,7 +12,7 @@
 
   
 
-  <link rel="alternate" type="application/rss+xml" title="Fromage and ML - A summary of personnal courses/projects providing cheat sheet to help people using ML in general." href="http://localhost:5000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Fromage & Programming - A summary of personnal courses/projects providing cheat sheet to help people starting to program in general." href="http://localhost:5000/feed.xml" />
 
   
 
@@ -62,7 +62,7 @@
   
 
    
-  <meta property="og:description" content="Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype. In fact, both the...">
+  <meta property="og:description" content="In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its...">
   
 
 
@@ -86,7 +86,7 @@
   
 
   
-  <meta name="twitter:description" content="Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype. In fact, both the...">
+  <meta name="twitter:description" content="In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its...">
   
 
   
@@ -111,7 +111,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage and ML</a></div>
+      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage & Programming</a></div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
@@ -122,9 +122,10 @@
               <a href="/2010-10-10-NMR">NMR and ML</a>
               <a href="/2010-10-10-ada">Data awareness/food NLP</a>
               <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
-              <a href="/2010-10-10-higg">Higg Boson classification</a>
-              <a href="/2010-10-10-MLproj_ETH">ML project</a>
+              <a href="/2010-10-10-higg">Higg Boson competition</a>
+              <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
               <a href="/2010-10-10-morse-decoder">Morse decoder</a>
+              <a href="/2010-10-10-pokemon">Pokemon emulator</a>
             </div>
           </li>
         
@@ -133,7 +134,7 @@
             <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
             <div class="navlinks-children">
               <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
-              <a href="/cht_sheet/spark_chtsheet">Spark</a>
+              <a href="/2010-10-10-spark_cheatsheet">Spark</a>
             </div>
           </li>
         
@@ -211,31 +212,41 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <p>Wikipedia describes the phenotype as <em>the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype.</em>  In fact, both the genetic and its expression rates depending on the environmental factors give useful informations in order to predict a phenotype have their advantages and inconvenients.</p>
+      <p align="right">
+<i>In collaboration with Raphael Reis, Gianni Giusto and Lucas Zweili</i><br />You can access the full data story <a href="https://drive.google.com/file/d/1c0hUkdUSp3KjXDLsiT5FXr9J8zGLVsx5/view?usp=sharing"> here </a><br /></p>
+<h2 id="introduction">Introduction</h2>
+<p>Wikipedia describes the phenotype as <em>the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its genotype, and the influence of environmental factors. Both factors may interact, further affecting phenotype.</em>  <br /></p>
+
+<p>In fact, the study of both the genetic material and its expression rates (which depends on the environmental factors) gives useful informations when it comes to predict a phenotype. Each approach presents besides its own advantages and inconvenients.</p>
 
 <ul>
-  <li>The genetic information on one hand can be systematically sequenced and analyzed for any individual. However, most of the DNA is silenced in most cells through epigenetic phenomenon such as chromatin condensation (link) leading to a lot of noisy and useless information in the genetic data.</li>
+  <li>The genetic information on one hand can be systematically sequenced and analyzed for any individual. However, an extensive amount of the DNA is silenced in most cells through <a href="https://en.wikipedia.org/wiki/Epigenetics#Molecular_basis">epigenetic phenomenon </a>such as chromatin condensation leading to a lot of noisy and useless information in the genetic data.</li>
   <li>On the other hand, protein expression levels are closer to the phenotype in that sense that the phenotype will directly depend of these. However, many techniques exist to quantify the concentration of any protein level, and these levels can vary according to many factors, or not be measured at all, leading to sparse dataset.</li>
 </ul>
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8hAgDilitcTKpKSKJxjqbmZ591arP6Kw6plS2lReE3z5BB4j26hAglHRaXxhG3XCWLm4ts06zfW9U/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="implementation">Implementation</h2>
+<p>The features we were working on where <a href="https://isogg.org/wiki/Single-nucleotide_polymorphism">Single Nucleotide Polymorphism</a> (SNP) which represent specific, pointwise mutations present each of the parent of the H0 generation: each of the specimen of the H1 generation inherits the SNP from one or the other parent for each gene: however, on the genome, closeby genes are likely to be inherited from the parent due to the phenomenon of <a href="https://en.wikipedia.org/wiki/Chromosomal_crossover">Crossing Over </a>. Our genetic dataset consisted of binary values representing the parent from which the offspring inherited its genome from for a given gene. In addition, several levels of protein expression were measured for various gene and represented the expression data.</p>
 
-<p>Our approach consisted thus in trying to find a network-based technique which would be able to take advantage of the best of these 2 datasets.
-As a first step, we built a genetic-similarity based graph for the different mouse strains. Based on this graph, I developed a grid-search approach evaluating different combinations of gene/parameters in order to obtain a list of genes on which we would have chances to perform decently despite the of missing data and gene complexity.
-The main gene we decided to focus on was the hair coat color: in order to predict it, we used subsequently the following methods:</p>
+<p>Our approach consisted thus in trying to find a network-based technique which would be able to take advantage of the best of both dataset.
+As a first step, we built a genetic-similarity based graph for the different mouse strains.(<i>further referred to as genetic graph</i>) Based on this graph, I developed a grid-search approach evaluating different combinations of gene/parameters in order to obtain a list of genes for which we would have chances to perform decently despite the extensive amount of missing data and gene complexity</p>
+
+<p>We decided to focus on the hair coat color: in order to predict it, we used subsequently the following methods:</p>
 <ul>
   <li>Logistic regression</li>
   <li>Tikhonov classification</li>
   <li>Harmonic classification</li>
   <li>Graph Neural Network</li>
-  <li>Recursive Feature selection (RFE)
-<br /></li>
+  <li>Recursive Feature selection (RFE)</li>
 </ul>
 
-<p>These methods, along with the RFE allowed me to reach an accuracy of 98% : after further investigation, it turned out that the SNP we were working on coincided perfectly with the hair color-responsible genes. (Myo5a and …).
-you can access the full report here.</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8hAgDilitcTKpKSKJxjqbmZ591arP6Kw6plS2lReE3z5BB4j26hAglHRaXxhG3XCWLm4ts06zfW9U/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p>These methods, along with the RFE allowed me to reach an accuracy of 98% : after further investigation, it turned out that the remaining features positions (SNP) coincided perfectly with the genes Myo5a and Tyrp1, which are mainly responsible for the hair coat color in the BXD strain.</p>
 
-<iframe src="https://drive.google.com/file/d/1c0hUkdUSp3KjXDLsiT5FXr9J8zGLVsx5/preview" width="640" height="480"></iframe>
+<h2 id="retrospective-improvements">Retrospective Improvements</h2>
+<p>Looking back on the project, using a feature selection earlier in the development could have saved a lot of time. In fact, network methods might have not been the best tools to go for due to the sparsity of the expression level datasets: classical ML techniques might probably perform better. However, this constraint was due to the fact that this project was developped along with the course “A Network tour of Data Science”.</p>
+
+<p>You can access the full report <a href="https://drive.google.com/file/d/1c0hUkdUSp3KjXDLsiT5FXr9J8zGLVsx5/view?usp=sharing"> here </a></p>
+
 
 	    
         <div class="disqus-comments">

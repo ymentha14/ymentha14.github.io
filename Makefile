@@ -1,5 +1,8 @@
 CXX?= g++
-.PHONY: all run plot con
+.PHONY: all run plot con list
+
+list:
+	sudo netstat -ltnp | grep -w '5000'
 
 con:
 	bundle exec jekyll serve& 2>&1 /dev/null

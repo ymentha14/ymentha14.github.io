@@ -99,12 +99,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: ;
+  background-color: #555555;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  
-  background-image: url(/img/cheese.jpg);
-  background-attachment: fixed;
   
 }
 
@@ -218,7 +215,7 @@ img {
   display: block;
   padding: 10px;
   padding-left: 30px;
-  background-color: #999999;
+  background-color: #333333;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
