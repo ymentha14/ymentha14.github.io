@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fromage & Programming
-subtitle: A Website where you'll find advices about Programming. And Cheese.
+subtitle: A Website where you'll find tips about Programming. And Cheese.
 use-site-title: true
 ---
 

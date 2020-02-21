@@ -17,6 +17,7 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       {%- for link in site.navbar-links -%}
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
         {%- if link[1].first %}
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>

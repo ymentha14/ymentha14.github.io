@@ -1,0 +1,25 @@
+- title: High Throughput Computing
+  content: >
+    Prof. Petros Koumoutsakos (ETH): Shared Memory, Concurrency, Threads, OpenMP, HPC libraries, Distributed Memory (MPI), Strong/Weak scaling
+  url: "https://www.cse-lab.ethz.ch/teaching/hpcse-i_hs18/"
+- title: Machine Learning 
+  content: >
+    Prof. Andrea Krause (ETH): Model Selection, Cross Validation, Classification, Feature Selection, Kernels, Class Imbalance, Neural Nets, Clustering, Dimensionality Reduction, Probabilistic Modelling, Logistic Regression, Decision Theory, Generate Modelling, GMMs, GANs
+  url: "https://las.inf.ethz.ch/teaching/introml-s19"
+- title: Algorithms Probability and Computing
+  content: >
+    Prof. Emo Welezl (ETH): Min Spanning Trees, Randomized search trees, Point Location, Linear Programming, Randomized Algebraic Algorithms, Parallel Algorithms
+  url: "https://www.ti.inf.ethz.ch/ew/courses/APC18/index.html"
+- title: Formal Methods and Functionnal Programming
+  content: |
+    Prof. Peter Müller (ETH): FuncProg: (Haskell) Proofs by inductions, Recursions, Noetherian induction, Correctness, Terminations, Typing, Type Checking, Type Inference, Type Classes, List Comprehension, Algebraic Data Types, Lazy Evaluation, Monads <br> Formal Methods: Axiomatic Semantics, Modeling, Linear Temporal Logic, Model Checking (spin)
+  url: "https://infsec.ethz.ch/education/ss2019/fmfp.html"
+- title: Big Data for Engineers
+  content: >
+    Dr. Ghislain Fourny (ETH): Object/Key-value storage, Distributed File Systems (HDFS),Syntax (XML,CSV,JSON),Column Stores (BigTable),Data Models, MapReduce (Hadoop), YARN, SPARK, Document Stores, Qerying Trees
+  url: "https://www.systems.ethz.ch/courses/spring2019/bigdataforeng/material"
+- title: Applied Multivariate Statistics
+  content: >
+    Fabio Sigrist (ETH): Multivariate Outliers, Visualization, Factor Analysis, PCA, Multidensional Scaling, Kernel PCA, t-SNE, ISOMAP, Linar Discriminant Analysis (LDA),Quadratic Discriminant Analysis, Random Forests, Mixed Effects Models
+  url: "http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=127617&semkez=2019S&ansicht=KATALOGDATEN&lang=en"
+     

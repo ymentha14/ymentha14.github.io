@@ -1,5 +1,6 @@
 # --- General options --- #
 
+#
 # Name of website
 title: Fromage & Programming
 
@@ -19,7 +20,7 @@ description: A summary of personnal courses/projects providing cheat sheet to he
 
 # List of links in the navigation bar
 navbar-links:
-  Projects:
+  Projects: 
     - Multithreaded Coencaps: "/2010-10-10-coencaps"
     - NMR and ML: "2010-10-10-NMR"
     - Data awareness/food NLP: "2010-10-10-ada"
@@ -36,7 +37,12 @@ navbar-links:
     - Spark: "2010-10-10-spark_cheatsheet"
 
   Fromages:
-    - Brie Bleu: "brie_bleu"
+    - Brie Bleu: "2010-10-10-brie_bleu"
+    - Reblochon: "2010-10-10-reblochon"
+    - Gruyere: "2010-10-10-gruyere"
+    - Boule de Belp: "2010-10-10-BDB"
+    - Mozarella di Buffala: "2010-10-10-mozzbuff"
+    - Chilli Pecorino: "2010-10-10-chillipec"
   About the Author: "aboutme"
 livereload: true
 

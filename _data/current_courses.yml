@@ -1,0 +1,19 @@
+- title: Deep Learning
+  content: >
+    Prof. François Fleuret: Empirical risk minimization, Multi-layer perceptron,Autograd, CNN, Dropout, Deep models for Computer Vision, Auto-encoders, Generative models, Recurrent models, NLP
+  url: "https://edu.epfl.ch/coursebook/en/deep-learning-EE-559"
+  urlname: EE-559
+- title: Lab in Data Science
+  content: >
+    Dr. Eric Bouillet: Distributed Computing with Hadoop, HDFS, Parquet, HBase, Hive, Zookeeper, Ambari, Spark, Yarn, Mesos, Stream Processing, Large-Scale Data Analysis
+  url: "https://edu.epfl.ch/coursebook/en/lab-in-data-science-EE-490-H"
+- title: Optimization for Machine Learning
+  content: >
+    Prof. Martin Jaggi: Convexity, Gradient Methods, Proximal algorithms, Coordinate Descent Methods, Subgradient Methods, Non-Convex Optimization, Frank-Wolfe, Accelerated Methods, Primal-Dual context and certificates, Lagrange and Fenchel Duality, Second-Order Methods, Quasi-Newton Methods, Gradient-Free and Zero-Order Optimization.
+  url: "https://edu.epfl.ch/coursebook/en/optimization-for-machine-learning-CS-439"
+  urlname: CS-439
+- title: Data visualization
+  content: >
+    Dr. Laurent-Gilles Marie Vuillon: Data visualization Web, Maps, Javascript, Text visualization, Graphs, Tabular data viz, Music viz, Intro to scientific visualisation
+  url: "https://edu.epfl.ch/coursebook/en/data-visualization-COM-480"
+  urlname: COM-480
