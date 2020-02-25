@@ -6,18 +6,18 @@
   content: Prof. Martin Jaggi (EPFL) Cost functions,Model Selection and Validation, Bias-Variance Decomposition, Generalized Linear Models, SVM, Kernel Regressions, Gaussian Mixture Models, EM algorithm, SVD,PCA, Neural Networks, Adversarial ML, CNN, Graphical Models, Bayes Nets, Factor Graphs,MLE,MAP estimation, Probabilistic interprations, Under,overfitting, Ridge,Linear regression, Lasso                    
   url: "https://edu.epfl.ch/coursebook/en/machine-learning-CS-433"
   urlname: CS-433
-- title: Network Tour of Data Science Prof. Vandergheist (EPFL) 
+- title: Network Tour of Data Science 
   content: Prof. Vandergheist (EPFL) Data Mining, Spectral Clustering, Graph Neural Networks, Graph theory, Random Networks, Erdos-Renyi Model, Small-world property, ScaleFree Networks
   url: "https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558"
   urlname: EE-558
-- title: Stochastic Models for Communication Prof. Thyran (EPFL)                                                 
+- title: Stochastic Models for Communication                                                  
   content: >
-    Continuous and Discrete stochastic processes (second order analysis : ergodism, stationarity, harmonic analysis), Poisson processes, Discrete and Continuous Markov Chains, Introduction to Queuing Theory
+    Prof. Thyran (EPFL):Continuous and Discrete stochastic processes (second order analysis : ergodism, stationarity, harmonic analysis), Poisson processes, Discrete and Continuous Markov Chains, Introduction to Queuing Theory
   url: "https://edu.epfl.ch/coursebook/fr/modeles-stochastiques-pour-les-communications-COM-300"
   urlname: COM-300
-- title: Graph Theory Prof. Eisenbrand (EPFL)                                                 
+- title: Graph Theory                                                  
   content: > 
-    BFS shortest path, Hamilton paths, Matchings, Flows (König's theorem), Tutte matrix and Schwartz-zippel Lemma, Colorings, Menger's theorem, Probabilstic methods, Ramsey's theorem
+    Prof. Eisenbrand (EPFL):BFS shortest path, Hamilton paths, Matchings, Flows (König's theorem), Tutte matrix and Schwartz-zippel Lemma, Colorings, Menger's theorem, Probabilstic methods, Ramsey's theorem
   url: "https://edu.epfl.ch/coursebook/en/graph-theory-MATH-360"
   urlname: MATH-360
 
