@@ -1,0 +1,35 @@
+{% if page.pic3 %}
+ {% assign width="33.33%" %}
+{% elsif page.pic2 %}
+ {% assign width="50%" %}
+{% else %}
+ {% assign width="100%" %}
+{% endif %}
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel = "stylesheet" href = "{{ page.cheese_css }}">
+ <script src="{{ page.cheese_js }}"></script>
+</head>
+<div style="text-align:center">
+<div class="row">
+  <div class="column" style="width:{{ width }}">
+   <img src="{{ page.pic1 }}" class="zoomD" alt="fromage">
+  </div>
+  {% if page.pic2 %}
+  <div class="column" style="width:{{ width }}">
+    <img src="{{ page.pic2 }}" class="zoomD" alt="Fromage">
+  </div>
+  {% endif %}
+  {% if page.pic3 %}
+  <div class="column" style="width:{{ width }}">
+    <img src="{{ page.pic3 }}" class="zoomD" alt="Fromage">
+  </div>
+  {% endif %}
+</div>
+</div>
+<body>
+  <div id="lb-back">
+   <div id="lb-img"> <span class="helper"></span></div>
+  </div>
+</body>
+

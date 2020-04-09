@@ -124,75 +124,39 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
       </item>
     
       <item>
-        <title>Reblochon</title>
+        <title>Vallgrotte</title>
         <description>
           
           
 
+ 
+ 
+ 
 
- Coming Soon 
+
+
   
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-reblochon/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-reblochon/</guid>
-      </item>
+   
+  
+  
+  
     
-      <item>
-        <title>Mozzarella di Buffala</title>
-        <description>
-          
-          
-
-
- Coming Soon 
+  
+  
   
 
 
 
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-mozzbuff/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-mozzbuff/</guid>
-      </item>
+  
     
-      <item>
-        <title>Gruyere</title>
-        <description>
-          
-          
-
-
- Coming Soon 
   
 
 
 
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-gruyere/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-gruyere/</guid>
-      </item>
-    
-      <item>
-        <title>Chilli Pecorino</title>
-        <description>
-          
-          
-
-
- Coming Soon 
-  
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-chillipec/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-chillipec/</guid>
+        <link>http://localhost:5000/2010-10-10-vallgrotte/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-vallgrotte/</guid>
       </item>
     
       <item>
@@ -201,34 +165,309 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
           
           
 
+ 
+ 
+ 
 
- Coming Soon 
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+
+
+
+  
+    
   
 
 
 
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-brie_bleu/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-brie_bleu/</guid>
+        <link>http://localhost:5000/2010-10-10-mottens/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-mottens/</guid>
       </item>
     
       <item>
-        <title>Boule de Belp</title>
+        <title>Coulomier</title>
         <description>
           
           
 
+ 
+ 
+ 
 
- Coming Soon 
+
+
+  
+   
+  
+  
+  
+
+
+
+  
+    
   
 
 
 
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-BDB/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-BDB/</guid>
+        <link>http://localhost:5000/2010-10-10-coulomier/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-coulomier/</guid>
+      </item>
+    
+      <item>
+        <title>Brin d'Aunour</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-brindaunour/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-brindaunour/</guid>
+      </item>
+    
+      <item>
+        <title>Brie Bleu</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-briebrebis/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-briebrebis/</guid>
+      </item>
+    
+      <item>
+        <title>Brie Bleu</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-briebleu/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-briebleu/</guid>
+      </item>
+    
+      <item>
+        <title>Brie à l'ail des ours</title>
+        <description>
+          
+          Fromage présentant une odeur crémante, arrière d’ail des ours, dominance ail des ours, très frais tend vers l’amertume sans pour autant l’atteindre vraiment évoque l’attaqeu de la truffe mais n’explose pas au nez fondant, similaire au beurre croûte très fine, imperceptible a la mastication un peu d’étable à l’odeur ,...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-brieADO/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-brieADO/</guid>
+      </item>
+    
+      <item>
+        <title>Mottens</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-bottens/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bottens/</guid>
+      </item>
+    
+      <item>
+        <title>Bonan</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-bonan/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bonan/</guid>
+      </item>
+    
+      <item>
+        <title>Bleu Ronbeuillet</title>
+        <description>
+          
+          
+
+ 
+ 
+ 
+
+
+
+  
+   
+  
+  
+  
+    
+  
+  
+  
+
+
+
+  
+    
+  
+
+
+
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-bleuronbeuillet/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bleuronbeuillet/</guid>
       </item>
     
       <item>
@@ -253,40 +492,6 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-spark_cheatsheet/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-spark_cheatsheet/</guid>
-      </item>
-    
-      <item>
-        <title>Machine Learning Cheat Sheet</title>
-        <description>
-          
-          
-
-
- This is a Cheat sheet summarizing the diverse subjects treated as in the CS-433 Machine Learning Course in EPFL treating the following subjects: 
-
-
-
-  
-     Linear Regression 
-     MAP estimation 
-     test 
-  
-
-
-
-  
-     MLE 
-     kakou 
-  
-
-
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-ML_cheatsheet/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-ML_cheatsheet/</guid>
       </item>
     
   </channel>

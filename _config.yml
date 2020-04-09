@@ -37,12 +37,14 @@ navbar-links:
     - Spark: "2010-10-10-spark_cheatsheet"
 
   Fromages:
-    - Brie Bleu: "2010-10-10-brie_bleu"
-    - Reblochon: "2010-10-10-reblochon"
-    - Gruyere: "2010-10-10-gruyere"
-    - Boule de Belp: "2010-10-10-BDB"
-    - Mozarella di Buffala: "2010-10-10-mozzbuff"
-    - Chilli Pecorino: "2010-10-10-chillipec"
+    - Vallgrotte: "2010-10-10-vallgrotte"
+    - Brie Bleu: "2010-10-10-briebleu"
+    - Brie Ail des Ours: "2010-10-10-brieADO"
+    - Bleu Ronbeuillet: "2010-10-10-bleuronbeuillet"
+    - Bottens: "2010-10-10-bottens"
+    - Bonan: "2010-10-10-bonan"
+    - Coulomier: "2010-10-10-coulomier"
+    - Brin dAunour: "2010-10-10-brindaunour"
   About the Author: "aboutme"
 livereload: true
 
