@@ -7,23 +7,25 @@
     <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Pokemon RTS</title>
+        <title>Torchlurk</title>
         <description>
           
-          Description
-A project I coded a while ago allowing you to compile a RTS ( ;) ) version of pokemon. it should arrive pretty soon! Just need to clean and upload it..
-
-
-
- Coming Soon 
-  
-
-
-
+          Don't hesitate to visit the official Torchlurk's website or github repo! Description Torchlurk is a python library allowing you to easily visualize what your sequential CNN has learned by providing various feature such as Grad-CAM, saliency maps or filter visualization directly in a notebook or by serving it on a...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-pokemon/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-pokemon/</guid>
+        <link>http://localhost:5000/2010-10-10-torchlurk/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-torchlurk/</guid>
+      </item>
+    
+      <item>
+        <title>EmoDB Speech Classification</title>
+        <description>
+          
+          You can access the presentation here and the github repo here Introduction EmoDB, as known as Berlin Database of Emotional Speech, is a dataset presenting short speeches of 6 types of emotions in german. (anger, happiness, fear, disgust, neutral and boredom) The project, made in the context of a one-week...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-speech/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-speech/</guid>
       </item>
     
       <item>
@@ -38,23 +40,25 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
       </item>
     
       <item>
-        <title>Visual Morse Code Decoder</title>
+        <title>Yet Another MNIST classification project</title>
         <description>
           
-          The project aims at developing a program/application which would read and translate morse codes like in the following image into plain words in real time, using CNN analyzing the image flow and keeping tracks of the stacked information.
-
-—
-—
-
- Coming Soon 
-  
-
-
-
+          You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-morse-decoder/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-morse-decoder/</guid>
+        <link>http://localhost:5000/2010-10-10-mnist/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-mnist/</guid>
+      </item>
+    
+      <item>
+        <title>CheapTorch</title>
+        <description>
+          
+          You can access the github repo here and the report here Introduction After Facebook started storing Zetabytes of various private data about their users (among it H24 4k video recording of the users cats) a unique bug in history destroyed all instances of the Autograd Framework. Luckily, some coders were...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-minideepl/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-minideepl/</guid>
       </item>
     
       <item>
@@ -77,6 +81,17 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-coencaps/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-coencaps/</guid>
+      </item>
+    
+      <item>
+        <title>From Adam to W</title>
+        <description>
+          
+          In collaboration with Jonathan Besomi and Stefano HuberYou can access the full data story here Github Repo Introduction The project consists in an overview and performance comparison of the AdamW optimizer over the classically used Adam on 3 state of the art datasets in order to assess significant improvement in...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-adamw/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-adamw/</guid>
       </item>
     
       <item>
@@ -116,7 +131,7 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
         <title>List of Courses</title>
         <description>
           
-          This section aims at presenting a non-exhaustive list of the Data Science-related courses that I followed untill and including now during my cursus at EPFL and ETH. Current Courses Spring 2020 Deep Learning EE-559 Prof. François Fleuret: Empirical risk minimization, Multi-layer perceptron,Autograd, CNN, Dropout, Deep models for Computer Vision, Auto-encoders,...
+          This section aims at presenting a non-exhaustive list of the Data Science-related courses that I followed untill and including now during my cursus at EPFL and ETH. Current Courses Fall 2020 Optionnal project in Data Science Prof. West: Analysis of the emojis semantic representation with an NLP approach for various...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-courses/</link>
@@ -396,102 +411,6 @@ A project I coded a while ago allowing you to compile a RTS ( ;) ) version of po
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-bottens/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-bottens/</guid>
-      </item>
-    
-      <item>
-        <title>Bonan</title>
-        <description>
-          
-          
-
- 
- 
- 
-
-
-
-  
-   
-  
-  
-  
-    
-  
-  
-  
-
-
-
-  
-    
-  
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-bonan/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bonan/</guid>
-      </item>
-    
-      <item>
-        <title>Bleu Ronbeuillet</title>
-        <description>
-          
-          
-
- 
- 
- 
-
-
-
-  
-   
-  
-  
-  
-    
-  
-  
-  
-
-
-
-  
-    
-  
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-bleuronbeuillet/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bleuronbeuillet/</guid>
-      </item>
-    
-      <item>
-        <title>Spark Cheat Sheet</title>
-        <description>
-          
-          
-
-
- This is a Cheat sheet aiming at helping SPARK beginner users, as the error messages for this library can be (quite) frustrating when it comes to debug the code. 
----
----
-
- Coming Soon 
-  
-
-
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-spark_cheatsheet/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-spark_cheatsheet/</guid>
       </item>
     
   </channel>

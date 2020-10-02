@@ -30,15 +30,32 @@ title: Machine Learning Cheat Sheet
   <ul>
     <li> Linear Regression </li>
     <li> MAP estimation </li>
-    <li> test </li>
+    <li> EM algorithm </li>
+    <li> Kernel PCA </li>
+    <li> Matrix Factorization </li>
+    <li>  CNN </li>
+    <li>  White/Black Box Attacks </li>
+
+
+
   </ul>
 </div>
 
 <div class="column">
   <ul>
     <li> MLE </li>
-    <li> kakou </li>
+    <li> Linear Regression </li>
+    <li>  SVM </li>
+    <li>  Duality </li>
+    <li>  Kernel Trick </li>
+    <li>  Kmean++ </li>
+    <li>  Coordinate Descent </li>
   </ul>
+
 </div>
+You can <a href="https://drive.google.com/file/d/1RARyrMqk8F8JdW4eKIA-98TD8f1FENs5/view?usp=sharing"> download</a> the following cheat sheet as well :)
+
+
 </div>
 <iframe src="https://drive.google.com/file/d/1RARyrMqk8F8JdW4eKIA-98TD8f1FENs5/preview" width="640" height="480"></iframe>
+

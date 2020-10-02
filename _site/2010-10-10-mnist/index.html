@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Yet Another MNIST classification project</title>
+
+  <meta name="author" content="Yann Mentha" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Fromage & Programming - A summary of personnal courses/projects providing cheat sheet to help people starting to program in general." href="http://localhost:5000/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Yet Another MNIST classification project" />
+  
+
+   
+  <meta property="og:description" content="You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:5000/2010-10-10-mnist/" />
+  <link rel="canonical" href="http://localhost:5000/2010-10-10-mnist/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:5000/img/favicon.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Yet Another MNIST classification project" />
+  
+
+  
+  <meta name="twitter:description" content="You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:5000/img/favicon.png" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage & Programming</a></div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-torchlurk">Torchlurk</a>
+              <a href="/2010-10-10-adamw">AdamW</a>
+              <a href="/2010-10-10-speech">Speech Recognition</a>
+              <a href="/2010-10-10-cfffit">Cff fit</a>
+              <a href="/2010-10-10-coencaps">Multithreaded Coencaps</a>
+              <a href="/2010-10-10-NMR">NMR and ML</a>
+              <a href="/2010-10-10-ada">Data awareness/food NLP</a>
+              <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
+              <a href="/2010-10-10-mnist">MnistAgain</a>
+              <a href="/2010-10-10-minideepl">Mini DeppL Framework</a>
+              <a href="/2010-10-10-higg">Higg Boson competition</a>
+              <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Fromages</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-vallgrotte">Vallgrotte</a>
+              <a href="/2010-10-10-briebleu">Brie Bleu</a>
+              <a href="/2010-10-10-brieADO">Brie Ail des Ours</a>
+              <a href="/2010-10-10-bleuronbeuillet">Bleu Ronbeuillet</a>
+              <a href="/2010-10-10-bottens">Bottens</a>
+              <a href="/2010-10-10-bonan">Bonan</a>
+              <a href="/2010-10-10-coulomier">Coulomier</a>
+              <a href="/2010-10-10-brindaunour">Brin dAunour</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/aboutme">About the Author</a></li></ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:5000/">
+	      <img class="avatar-img" src="/img/favicon.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+  <div id="header-big-imgs" data-num-img=1
+    
+	  
+	  
+	    
+		  data-img-src-1="/img/mnist.png"
+		
+	  
+    
+  ></div>
+
+
+<header class="header-section has-img">
+
+<div class="big-img intro-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Yet Another MNIST classification project</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Yet Another MNIST classification project</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p align="right">
+<br />You can access the github repository <a href="https://github.com/ymentha14/DeepLClassifWeightSharing"> here </a><br />
+</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well as GridSearch on a toy dataset.</p>
+
+<h2 id="implementation">Implementation</h2>
+<p>A particular focus was put on the hyperparameter optimization methods: genetic algorithms were implemented following the method described in <a href="https://link.springer.com/article/10.1007/BF00175354"> this paper</a>.</p>
+
+
+	    
+        <div class="disqus-comments">
+	        
+        </div>
+	        
+        <div class="staticman-comments">
+          
+
+        </div>
+        <div class="justcomments-comments">
+          
+        </div>
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:yann.mentha@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/ymentha14" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://linkedin.com/in/yann-mentha-1482aa192/" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Yann Mentha
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+          document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/js/main.js"></script>
+    
+  
+
+
+
+
+
+
+  
+  </body>
+</html>

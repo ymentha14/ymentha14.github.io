@@ -20,21 +20,23 @@ description: A summary of personnal courses/projects providing cheat sheet to he
 
 # List of links in the navigation bar
 navbar-links:
-  Projects: 
-    - Multithreaded Coencaps: "/2010-10-10-coencaps"
+  Projects:
+    - Torchlurk: "2010-10-10-torchlurk"
+    - Speech Recognition: "2010-10-10-speech"
+    - AdamW: "2010-10-10-adamw"
+    - MnistAgain: "2010-10-10-mnist"
+    - Mini DeppL Framework: "2010-10-10-minideepl"
     - NMR and ML: "2010-10-10-NMR"
     - Data awareness/food NLP: "2010-10-10-ada"
     - Network of Mouse Genetics: "2010-10-10-mouse_gen"
+    - Multithreaded Coencaps: "/2010-10-10-coencaps"
     - Higg Boson competition: "2010-10-10-higg"
     - ML competition ETH: "2010-10-10-MLproj_ETH"
-    - Morse decoder: "2010-10-10-morse-decoder"
-    - Pokemon emulator: "2010-10-10-pokemon"
 
   Courses: "2010-10-10-courses"
 
   Cheat sheets: 
     - Machine Learning: "2010-10-10-ML_cheatsheet"
-    - Spark: "2010-10-10-spark_cheatsheet"
 
   Fromages:
     - Vallgrotte: "2010-10-10-vallgrotte"

@@ -65,6 +65,10 @@
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:5000/2010-10-10-adamw/</loc>
+<lastmod>2010-10-10T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:5000/2010-10-10-coencaps/</loc>
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
@@ -73,7 +77,11 @@
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:5000/2010-10-10-morse-decoder/</loc>
+<loc>http://localhost:5000/2010-10-10-minideepl/</loc>
+<lastmod>2010-10-10T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:5000/2010-10-10-mnist/</loc>
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
 <url>
@@ -81,7 +89,11 @@
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:5000/2010-10-10-pokemon/</loc>
+<loc>http://localhost:5000/2010-10-10-speech/</loc>
+<lastmod>2010-10-10T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:5000/2010-10-10-torchlurk/</loc>
 <lastmod>2010-10-10T00:00:00-07:00</lastmod>
 </url>
 <url>
@@ -116,6 +128,9 @@
 </url>
 <url>
 <loc>http://localhost:5000/tags/</loc>
+</url>
+<url>
+<loc>http://localhost:5000/backup_project_line/</loc>
 </url>
 <url>
 <loc>http://localhost:5000/cht_sheet/ML_cheat_sheet.pdf</loc>

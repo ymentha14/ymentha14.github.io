@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>needs originally to be placed under the first h1§ of index.md</title>
+
+  <meta name="author" content="Yann Mentha" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Fromage & Programming - A summary of personnal courses/projects providing cheat sheet to help people starting to program in general." href="http://localhost:5000/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="needs originally to be placed under the first h1§ of index.md" />
+  
+
+   
+  <meta property="og:description" content="# needs originally to be placed under the first h1§ of index.md {% for post in site.posts %} {% if post.path contains 'projects' %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:5000/backup_project_line/" />
+  <link rel="canonical" href="http://localhost:5000/backup_project_line/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:5000/img/favicon.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="needs originally to be placed under the first h1§ of index.md" />
+  
+
+  
+  <meta name="twitter:description" content="# needs originally to be placed under the first h1§ of index.md {% for post in site.posts %} {% if post.path contains 'projects' %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:5000/img/favicon.png" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button><a class="navbar-brand" href="http://localhost:5000/">Fromage & Programming</a></div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-torchlurk">Torchlurk</a>
+              <a href="/2010-10-10-adamw">AdamW</a>
+              <a href="/2010-10-10-speech">Speech Recognition</a>
+              <a href="/2010-10-10-cfffit">Cff fit</a>
+              <a href="/2010-10-10-coencaps">Multithreaded Coencaps</a>
+              <a href="/2010-10-10-NMR">NMR and ML</a>
+              <a href="/2010-10-10-ada">Data awareness/food NLP</a>
+              <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
+              <a href="/2010-10-10-mnist">MnistAgain</a>
+              <a href="/2010-10-10-minideepl">Mini DeppL Framework</a>
+              <a href="/2010-10-10-higg">Higg Boson competition</a>
+              <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Fromages</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-vallgrotte">Vallgrotte</a>
+              <a href="/2010-10-10-briebleu">Brie Bleu</a>
+              <a href="/2010-10-10-brieADO">Brie Ail des Ours</a>
+              <a href="/2010-10-10-bleuronbeuillet">Bleu Ronbeuillet</a>
+              <a href="/2010-10-10-bottens">Bottens</a>
+              <a href="/2010-10-10-bonan">Bonan</a>
+              <a href="/2010-10-10-coulomier">Coulomier</a>
+              <a href="/2010-10-10-brindaunour">Brin dAunour</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/aboutme">About the Author</a></li></ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:5000/">
+	      <img class="avatar-img" src="/img/favicon.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>needs originally to be placed under the first h1§ of index.md</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 id="needs-originally-to-be-placed-under-the-first-h1-of-indexmd">needs originally to be placed under the first h1§ of index.md</h1>
+
+<div class="posts-list">
+
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-torchlurk/">
+	  <h2 class="post-title">Torchlurk</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+Don't hesitate to visit the official Torchlurk's  website or  github repo!
+
+
+
+        
+        
+          <a href="/2010-10-10-torchlurk/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-speech/">
+	  <h2 class="post-title">EmoDB Speech Classification</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+You can access the presentation  here and the github repo 
+ here 
+
+
+
+        
+        
+          <a href="/2010-10-10-speech/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-mouse_gen/">
+	  <h2 class="post-title">Network for Mouse Genetics</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its...
+        
+        
+          <a href="/2010-10-10-mouse_gen/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-mnist/">
+	  <h2 class="post-title">Yet Another MNIST classification project</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+You can access the github repository  here 
+
+
+
+        
+        
+          <a href="/2010-10-10-mnist/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-minideepl/">
+	  <h2 class="post-title">CheapTorch</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+You can access the github repo  here  and the report  here 
+
+
+        
+        
+          <a href="/2010-10-10-minideepl/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-higg/">
+	  <h2 class="post-title">Higg Boson Competition</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        In collaboration with Gianni Giusto and Maxime EparsYou can access the github repo Introduction As part of the CS-433 master course of Machine Learning, an AI crowd competition took was organized for the students: the goal consisted in developing ourself the methods used such as KFold cross-validation, stochastic gradient descent,...
+        
+        
+          <a href="/2010-10-10-higg/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-coencaps/">
+	  <h2 class="post-title">C++ Multithreaded Coencapsulation</h2>
+	  
+	  <h3 class="post-subtitle">
+	    Lab. of Systems Biology and Genetics (EPFL)
+	  </h3>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Introduction The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively. Microship used for coencapsulation: A. Cell channel B. Bead channel C....
+        
+        
+          <a href="/2010-10-10-coencaps/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-adamw/">
+	  <h2 class="post-title">From Adam to W</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+In collaboration with Jonathan Besomi and Stefano HuberYou can access the full data story  here 
+Github Repo 
+
+
+        
+        
+          <a href="/2010-10-10-adamw/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-ada/">
+	  <h2 class="post-title">Data Awareness Dunnhumby dataset</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+In collaboration with Raphael Reis, Daniel Pechao and Jérôme LüscherYou can access the full data story  here 
+Introduction
+We proposed an in-depth analysis of the complete-journey dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby supermarket chain. 
+
+
+        
+        
+          <a href="/2010-10-10-ada/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-NMR/">
+	  <h2 class="post-title">A ML approach to determine chemical shifts in NMR</h2>
+	  
+	  <h3 class="post-subtitle">
+	    Lab. of Computational Science and Modeling (EPFL)
+	  </h3>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        In collaboration with Gianni Giusto and Maxime Epars 
+You can access the full report  here 
+
+Introduction
+
+
+        
+        
+          <a href="/2010-10-10-NMR/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  <article class="post-preview">
+    <a href="/2010-10-10-MLproj_ETH/">
+	  <h2 class="post-title">Machine Learning Competition ETH</h2>
+	  
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        In collaboration with Marijn Van der MeerYou can access the github repo Introduction As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one...
+        
+        
+          <a href="/2010-10-10-MLproj_ETH/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+   
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</div>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:yann.mentha@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/ymentha14" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://linkedin.com/in/yann-mentha-1482aa192/" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Yann Mentha
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+          document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/js/main.js"></script>
+    
+  
+
+
+
+
+
+
+  
+  </body>
+</html>
