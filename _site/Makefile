@@ -11,4 +11,7 @@ ref:
 	kill $(ps aux | grep '[j]ekyll' | awk '{print $2}'); bundle exec jekyll serve& 2>&1 /dev/null
 
 clean:
-	kill $(ps aux | grep '[j]ekyll' | awk '{print $2}') 	
+	kill $(ps aux | grep '[j]ekyll' | awk '{print $2}')
+
+serve:
+	bundle exec jekyll serve --force_polling

@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+.timeline{
+  padding: 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline ul li{
+  position: relative;
+  width: 50%;
+}
+
+.timeline::before{
+  content: '';
+  position: absolute;
+  height: 90%; /* prevent overhanging timeline on bottom*/
+  width: 4px; /*width of the line*/
+  background-color:#999999;
+  left: 50%;
+  top: 6%; /* prevent overhanging timeline on top*/
+}
+
+.timeline ul li:nth-child(odd){
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even){
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.timeline ul li:nth-child(odd) .content{
+  margin-right: 100px;
+}
+
+.timeline ul li:nth-child(even) .content{
+  margin-left: 100px;
+}
+.timeline ul::after{
+  content: '';
+  display: table;
+  clear: both; /*?? makes line reappear*/
+}
+
+.timeline ul li:nth-child(odd)::before{
+   content:'';
+   position: absolute;
+   height: 150px;
+   width: 150px;
+   background-color: white;
+   border-radius: 50%;
+   right: -79px;
+   top: 50%;
+   transform: translate(0%,-50%);
+   border: 4px solid #808080;
+}
+
+.timeline ul li:nth-child(even)::before{
+  content:'';
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  left: -79px;
+  top: 50%;
+  transform: translate(0%,-50%);
+  border: 4px solid #808080;
+}
+
+.content{
+  padding: 20px 0px; /* vertical space between images*/
+}
+.timeline ul li:nth-child(even)::before{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.timeline ul li:nth-child(1)::before{
+  background-image: url(../img/mathis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(2)::before{
+  background-image: url(../img/topo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(3)::before{
+  background-image: url(../img/je.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(4)::before{
+  background-image: url(../img/visium.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(5)::before{
+  background-image: url(../img/new_epfl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(6)::before{
+  background-image: url(../img/eth.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.timeline ul li:nth-child(7)::before{
+  background-image: url(../img/techno_deplancke.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(8)::before{
+  background-image: url(../img/old_epfl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.content p{
+  font-size: 14px;
+}
+
+.fadering
+{
+    opacity:0;
+}

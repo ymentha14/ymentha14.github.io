@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+body{
+  background-color: darkcyan;
+  color:#fff
+}
+
+.timeline{
+  padding: 0px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline ul li{
+  position: relative;
+  width: 50%;
+}
+
+.timeline::before{
+  content: '';
+  position: absolute;
+  height: 80%;
+  width: 4px; /*width of the line*/
+  background-color:#fff;
+  left: 50%;
+  top: 10%; /* prevent overhanging timeline*/
+}
+
+.timeline ul li:nth-child(odd){
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even){
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.timeline ul li:nth-child(odd) .content{
+  margin-right: 100px;
+}
+
+.timeline ul li:nth-child(even) .content{
+  margin-left: 100px;
+}
+.timeline ul::after{
+  content: '';
+  display: table;
+  clear: both; /*?? makes line reappear*/
+}
+
+.timeline ul li:nth-child(odd)::before{
+   content:'';
+   position: absolute;
+   height: 150px;
+   width: 150px;
+   background-color: black;
+   border-radius: 50%;
+   right: -79px;
+   top: 50%;
+   transform: translate(0%,-50%);
+   border: 4px solid #fff;
+}
+
+.timeline ul li:nth-child(even)::before{
+  content:'';
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  left: -79px;
+  top: 50%;
+  transform: translate(0%,-50%);
+  border: 4px solid #fff;
+}
+
+.content{
+  padding: 100px 0px; /* vertical space between images*/
+}
+
+.timeline ul li:nth-child(1)::before{
+  background-image: url(../img/visium.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline ul li:nth-child(2)::before{
+  background-image: url(../img/topo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.content p{
+  font-size: 14px;
+}
+
+
+/*fading css*/
+.hideme
+{
+    opacity:0;
+}

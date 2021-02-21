@@ -121,25 +121,44 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
+            <a class="navlinks-parent" href="javascript:void(0)">Data Analysis</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ada">Data awareness/food NLP</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Soft Dev</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-coencaps">Multithreaded Coencaps</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">ML</a>
             <div class="navlinks-children">
               <a href="/2010-10-10-torchlurk">Torchlurk</a>
-              <a href="/2010-10-10-adamw">AdamW</a>
               <a href="/2010-10-10-speech">Speech Recognition</a>
-              <a href="/2010-10-10-cfffit">Cff fit</a>
-              <a href="/2010-10-10-coencaps">Multithreaded Coencaps</a>
-              <a href="/2010-10-10-NMR">NMR and ML</a>
-              <a href="/2010-10-10-ada">Data awareness/food NLP</a>
-              <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
+              <a href="/2010-10-10-adamw">AdamW</a>
               <a href="/2010-10-10-mnist">MnistAgain</a>
               <a href="/2010-10-10-minideepl">Mini DeppL Framework</a>
+              <a href="/2010-10-10-NMR">NMR and ML</a>
+              <a href="/2010-10-10-mouse_gen">Network of Mouse Genetics</a>
               <a href="/2010-10-10-higg">Higg Boson competition</a>
               <a href="/2010-10-10-MLproj_ETH">ML competition ETH</a>
             </div>
           </li>
         <!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Python packages</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-torhclurk">Torchlurk</a>
+              <a href="/2010-10-10-mt2gf">Mt2gf</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
             <div class="navlinks-children">
@@ -147,6 +166,7 @@
             </div>
           </li>
         <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="">\</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Fromages</a>
             <div class="navlinks-children">
@@ -218,152 +238,109 @@
 <p>Welcome to Fromage and Programming! This website aims at presenting some of the cool projects I could work on in the past years, along with some incredible cheeses I discovered. I hope that both of them will motivate you to explore more these two wonderful worlds, fromage and programming!</p>
 <h2 align="middle"> Sections </h2>
 <p>The <strong>Projects</strong> section shows you the projects I have done in a chronological order from bottom to top. The <strong>Courses</strong> gives you an exhaustive list of the courses I am attending and did attend. A few <strong>Cheat Sheets</strong> will appear as I complete these courses as well! And finally.. you’ll check the <strong>Fromages</strong> section yourself ;)</p>
-<hr />
-
 <h1 align="middle"> Timeline </h1>
-<hr />
-<hr />
 <head>
-<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/timeline.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="/js/fade.js"></script>
 </head>
+<body>
+    <div class="timeline">
+        <ul>
+            <!-- 1 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Research Developer, Mathis Laboratory</h2>
+                    <h4>Feb 2021</h4>
+                    <p>Development of a distributed data-pipeline aiming at synchronizing multiple AI and neuroscience experiments.</p>
+                </div>
+            </li>
 
-<div class="center container">
-  <div class="row">
-    <div class="col-lg-12">
-      <ul class="timeline">
+            <!-- 2 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Research Developer, Topology and Neuroscience Laboratory</h2>
+                    <h4>Jan 2021</h4>
+                    <p>
+                        Topological Data Analysis for Covid19 tracing data of Geneva canton. We perform a network analysis on time-series of graphs to observe if the increase in number of Covid cases might be explained by changes in the topological structure of these graphs.
+                    </p>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Machine Learning Consultant<h2>
+                    <h4>Feb 2021</h4>
+                    <p>
+                        Development of an object detection pipeline for industrial application
+                    </p>
+                &lt;/div&gt;
+            &lt;/li&gt;
 
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/visium.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2020</h4>
-              <h4 class="subheading">Part-time Machine Learning engineer,Visium</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                As of today, I keep working at Visium as a part-time ML engineer in parallel of my studies. The topics I work on involve NLP, object detection and information retrieval.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+            <!-- 4 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Part-time Machine Learning engineer,Visium</h2>
+                    <h4>Jun 2020- Dec 2020</h4>
+                    <p>
+                        In order to gain practical experience in industry, I decided to perform an internship in an ML consulting company. During this time, I improved solutions for 3 client projects (major Swiss companies) in Natural Language processing and Time Series forecasting. I also built the building blocks of a backend software and prepared deliverables for the DevOps.
+                        After excellent client feedbacks, I got offered to keep on working at Visium as a part-time ML engineer in parallel of my studies. The topics I worked on involve NLP, object detection and information retrieval.
+                    </p>
+                </div>
+            </li>
 
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/visium.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2020</h4>
-              <h4 class="subheading">Machine Learning Intern,Visium</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                In order to gain practical experience in industry, I decided to perform an internship in an ML consulting company. During this time, I improved solutions for 3 client projects (major Swiss companies) in Natural Language processing and Time Series forecasting. I also built the building blocks of a backend software and prepared deliverables for the DevOps.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+            <!-- 5 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Master of Data Science, EPFL</h2>
+                    <h4>2018-2017</h4>
+                    <p>
+                        Master of Data Science allows me to develop my skills of ML, software development statistics and engineering.
+                    </p>
+                </div>
+            </li>
 
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/eth.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2018-2019</h4>
-              <h4 class="subheading">Exchange year, ETH</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Great accademic results allowed me to attend the master of Data Science at EPFL, for which I still had to confirm credits in CSE. I took this opportunity to peform an exchange at ETH.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+            <!-- 6 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Exchange year, ETH</h2>
+                    <h4>2018-2019</h4>
+                    <p>
+                        Great accademic results allowed me to attend the master of Data Science at EPFL, for which I still had to confirm credits in CSE. I took this opportunity to peform an exchange at ETH.
+                    </p>
+                </div>
+            </li>
 
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/techno_deplancke.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2017-2018</h4>
-              <h4 class="subheading">Research Assistant in Bioinformatics, Deplancke's Lab</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Thanks to encouraging results, I got hired as a research assistant in the same laboratory to pursue my research on the same topic.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+            <!-- 7 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Software Development Intern, Deplancke's Lab</h2>
+                    <h4>2017-2018</h4>
+                    <p>
+                        I worked on the development of a multithreaded C++ real-time image analysis software facilitating a deterministic cell-bead coencapsulation allowing subsequent single cell sequencing.
+                        Thanks to encouraging results, I got hired as a research assistant in the same laboratory to pursue my research on the same topic.
+                    </p>
+                </div>
+            </li>
 
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/techno_deplancke.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2017</h4>
-              <h4 class="subheading">Software Development Intern, Deplancke's Lab</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                I worked on the development of a multithreaded C++ real-time image analysis software facilitating a deterministic cell-bead coencapsulation allowing subsequent single cell sequencing.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+            <!-- 8 -->
+            <li>
+                <div class="content fadering">
+                    <h2>Bachelor</h2>
+                    <h4>2015-2017</h4>
+                    <p>
+                        As a student at EPFL in Life Science Engineering, I had a position of teaching assistant in Probability and Statistics and Object-Oriented C++ courses.
+                    </p>
+                </div>
+            </li>
 
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/new_epfl.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2017-2019</h4>
-              <h4 class="subheading">Teaching Assistant</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                I worked as a C++ Object Oriented and Statistics teaching assistant during my whole cursus at EPFL.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
 
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="/img/new_epfl.png" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2015-2017</h4>
-              <h4 class="subheading">Bachelor</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Student at EPFL in Life Science Engineering
-              </p>
-            </div>
-          </div>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
-
+</h2></h2></div></li></ul></div></body>
 
 	    
     </div>
@@ -397,7 +374,7 @@
       <p class="copyright text-muted">
       Yann Mentha
       &nbsp;&bull;&nbsp;
-      2020
+      2021
 
       
 
