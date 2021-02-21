@@ -6,20 +6,20 @@ jQuery( document ).ready( function( $ ) {
     particlesJS("particles-js", {
         "particles": {
         "number": {
-          "value": 80,
+          "value": 20,
           "density": {
             "enable": true,
-            "value_area": 800
+            "value_area": 600
           }
         },
         "color": {
-          "value": "#823a09"
+          "value": "#a0a0a0"
         },
         "shape": {
           "type": "circle",
           "stroke": {
             "width": 0,
-            "color": "#000000"
+            "color": "#606060"
           },
           "polygon": {
             "nb_sides": 5
@@ -41,30 +41,30 @@ jQuery( document ).ready( function( $ ) {
           }
         },
         "size": {
-          "value": 3,
+          "value": 10,
           "random": true,
           "anim": {
             "enable": false,
-            "speed": 40,
+            "speed": 20,
             "size_min": 0.1,
             "sync": false
           }
         },
         "line_linked": {
           "enable": true,
-          "distance": 150,
-          "color": "#823a09",
-          "opacity": 0.4,
-          "width": 1
+          "distance": 200,
+          "color": "#808080",
+          "opacity": 0.3,
+          "width": 2
         },
         "move": {
           "enable": true,
-          "speed": 6,
+          "speed": 3,
           "direction": "none",
           "random": false,
           "straight": false,
           "out_mode": "out",
-          "bounce": false,
+          "bounce": true,
           "attract": {
             "enable": false,
             "rotateX": 600,
