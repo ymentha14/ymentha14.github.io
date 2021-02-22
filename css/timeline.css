@@ -143,6 +143,10 @@ ul, ol{
   margin-bottom: 10px;
 }
 
+.content p{
+  font-size: 24px;
+}
+
 .fadering
 {
     opacity:0;

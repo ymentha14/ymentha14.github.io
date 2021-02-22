@@ -1,24 +1,15 @@
-- title: Optionnal project in Data Science
+- title: Optimization for Machine Learning
   content: >
-    Prof. West: Analysis of the emojis semantic representation with an NLP approach for various application. Development of a vector space representation for these emojis from associated word2vec words representations. 
-- title: Information Security and Privacy
+    Prof. Martin Jaggi: Convexity, Gradient Methods, Proximal algorithms, Coordinate Descent Methods, Subgradient Methods, Non-Convex Optimization, Frank-Wolfe, Accelerated Methods, Primal-Dual context and certificates, Lagrange and Fenchel Duality, Second-Order Methods, Quasi-Newton Methods, Gradient-Free and Zero-Order Optimization.
+  url: "https://edu.epfl.ch/coursebook/en/optimization-for-machine-learning-CS-439"
+  urlname: CS-439
+- title:  Semester project in Data Science
   content: >
-    Prof. Hubaux Jean Pierre: Overview of cyberthreats, Exploiting vulnerabilities Authentication, access control, compartmentalization.Basic applied cryptography, Operational security practices and failures, Machine learning and privacy, Data anonymization and de-anonymization techniques,Privacy enhancing technologies,Blockchain and decentralization
-  url: "https://edu.epfl.ch/coursebook/en/information-security-and-privacy-COM-402"
-  urlname: COM-402
-- title: Statistics for Data Science
+    Prof. Frossard:Roto-translation invariance in molecule generation: exploration of deep learning methods for generating molecules (variational autoencoder, graph neural networks and transformers)
+- title: Applied Biostatistics
   content: >
-    Derive properties of fundamental statistical procedures, Estimate model parameters from empirical observations, Test hypotheses related to the structural characteristics of a model, Construct confidence bounds for model parameters and predictions, Contrast competing models in terms of fit and parsimony
-  url: "https://edu.epfl.ch/coursebook/en/statistics-for-data-science-MATH-413"
-  urlname: MATH-413
-- title: Dramaturgy for professionnal world
-  content: >
-    Mme Sanchez Jurado: In depth overview of the techniques and skills to defend publicly a point of view and express oneself.
-  url: "https://hecnet.unil.ch/hec/syllabus/descriptif/1970"
-
-- title: Project management and risk analysis
-  content: >
-    General approach of project management integrating risk gestion in practical projects.
-  url: "https://edu.epfl.ch/coursebook/en/project-management-and-risk-analysis-MGT-427"
-  urlname: MGT-427
+    Darlene Goldstein:
+  url: "https://edu.epfl.ch/coursebook/fr/applied-biostatistics-MATH-493"
+  urlname: MATH-493
+ 
 

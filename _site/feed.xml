@@ -29,6 +29,17 @@
       </item>
     
       <item>
+        <title>Mturk2gform</title>
+        <description>
+          
+          You can access the github repo here Introduction During my semester project at DLAB, I had to synchronize forms generation using Appscript and human labelling resources using amazon MTurk. As no tool allowed to effectively synchronize these two technologies, I implemented it myself and turned it into a pypi package...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-mt2gf/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-mt2gf/</guid>
+      </item>
+    
+      <item>
         <title>Network for Mouse Genetics</title>
         <description>
           
@@ -131,7 +142,7 @@
         <title>List of Courses</title>
         <description>
           
-          This section aims at presenting a non-exhaustive list of the Data Science-related courses that I followed untill and including now during my cursus at EPFL and ETH. Current Courses Fall 2020 Optionnal project in Data Science Prof. West: Analysis of the emojis semantic representation with an NLP approach for various...
+          This section aims at presenting a non-exhaustive list of the Data Science-related courses that I followed untill and including now during my cursus at EPFL and ETH. Current Courses Fall 2020 Optimization for Machine Learning CS-439 Prof. Martin Jaggi: Convexity, Gradient Methods, Proximal algorithms, Coordinate Descent Methods, Subgradient Methods, Non-Convex...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-courses/</link>
@@ -371,46 +382,6 @@
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-brieADO/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-brieADO/</guid>
-      </item>
-    
-      <item>
-        <title>Mottens</title>
-        <description>
-          
-          
-
- 
- 
- 
-
-
-
-  
-   
-  
-  
-  
-    
-  
-  
-  
-  
-    
-  
-  
-
-
-
-  
-    
-  
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-bottens/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-bottens/</guid>
       </item>
     
   </channel>

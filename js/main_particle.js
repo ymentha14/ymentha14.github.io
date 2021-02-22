@@ -13,13 +13,13 @@ jQuery( document ).ready( function( $ ) {
           }
         },
         "color": {
-          "value": "#a0a0a0"
+          "value": "#0085a1"
         },
         "shape": {
           "type": "circle",
           "stroke": {
             "width": 0,
-            "color": "#606060"
+            "color": "#0085a1"
           },
           "polygon": {
             "nb_sides": 5
@@ -31,7 +31,7 @@ jQuery( document ).ready( function( $ ) {
           }
         },
         "opacity": {
-          "value": 0.5,
+          "value": 0.3,
           "random": false,
           "anim": {
             "enable": false,
@@ -53,8 +53,8 @@ jQuery( document ).ready( function( $ ) {
         "line_linked": {
           "enable": true,
           "distance": 200,
-          "color": "#808080",
-          "opacity": 0.3,
+          "color": "#c1b27f",
+          "opacity": 0.5,
           "width": 2
         },
         "move": {
