@@ -122,8 +122,18 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
             <div class="navlinks-children">
+              <a href="/2010-10-10-basket_rl">Hoops shooter</a>
+              <a href="/2010-10-10-emojis">Emojis Dataset</a>
               <a href="/2010-10-10-mt2gf">Mturk2gform</a>
               <a href="/2010-10-10-torchlurk">Torchlurk</a>
               <a href="/2010-10-10-speech">Speech Recognition</a>
@@ -144,14 +154,6 @@
             <div class="navlinks-children">
               <a href="https://pypi.org/project/mt2gf/">Mturk2gform</a>
               <a href="https://pypi.org/project/torchlurk/">Torchlurk</a>
-            </div>
-          </li>
-        <!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
-            <div class="navlinks-children">
-              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
             </div>
           </li>
         <!-- check if there is a second element, i.e. if the link is a parent one -->
@@ -259,7 +261,9 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <h2 id="introduction">Introduction</h2>
+      <p class="used_tools">Key tools: C++, C++ multithreading,PID controller, microfluidic chips controllers, OpenCv</p>
+
+<h2 id="introduction">Introduction</h2>
 <p>The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively.</p>
 <div align="middle">
 <img src="/img/chip_scheme.png" />

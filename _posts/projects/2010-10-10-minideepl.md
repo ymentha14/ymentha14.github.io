@@ -8,6 +8,9 @@ bigimg: /img/cheaptorch.jpg
 <p align="right">
 <br>You can access the github repo <a href="https://github.com/ymentha14/MiniDeepLframework"> here </a><br> and the report <a href="https://drive.google.com/file/d/1WRjTg62jNY3bw0rw9NKA2Lji8GoTkHMP/view?usp=sharing"> here </a></p>
 
+
+<p class="used_tools">Key tools: python, pytorch </p>
+
 ## Introduction
 After Facebook started storing Zetabytes of various private data about their users (among it H24 4k video recording of the users cats) a unique bug in history destroyed all instances of the Autograd Framework. Luckily, some coders were brave (desperate?) enough to recode it themselves. Is it working? Should we forget about Deep Learning? Check the rest of the repo in order to know!
 

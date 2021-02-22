@@ -1064,3 +1064,20 @@ pre {
 .center {
   margin: auto; 
 }
+
+.used_tools {
+  color: #D61769;
+  font-weight: bold;
+}
+
+
+/* center the iframe */
+iframe {
+  display: block;
+  border-style:none;
+  margin: 0 auto;
+}
+
+.imgContainer{
+  float:left;
+}

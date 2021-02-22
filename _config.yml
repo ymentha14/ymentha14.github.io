@@ -18,9 +18,18 @@ description: A summary of personnal courses/projects providing cheat sheet to he
 
 # --- Navigation bar options --- #
 
+
+
 # List of links in the navigation bar
 navbar-links:
+  Cheat sheets:
+    - Machine Learning: "2010-10-10-ML_cheatsheet"
+
+  Courses: "2010-10-10-courses"
+
   Projects:
+    - Hoops shooter: "2010-10-10-basket_rl"
+    - Emojis Dataset: "2010-10-10-emojis"
     - Mturk2gform: "2010-10-10-mt2gf"
     - Torchlurk: "2010-10-10-torchlurk"
     - Speech Recognition: "2010-10-10-speech"
@@ -34,15 +43,9 @@ navbar-links:
     - Higg Boson competition: "2010-10-10-higg"
     - ML competition ETH: "2010-10-10-MLproj_ETH"
 
-
   Packages:
     - Mturk2gform: "https://pypi.org/project/mt2gf/"
     - Torchlurk: "https://pypi.org/project/torchlurk/"
-
-  Courses: "2010-10-10-courses"
-
-  Cheat sheets:
-    - Machine Learning: "2010-10-10-ML_cheatsheet"
 
   Fromages:
     - Vallgrotte: "2010-10-10-vallgrotte"
@@ -53,6 +56,7 @@ navbar-links:
     - Bonan: "2010-10-10-bonan"
     - Coulomier: "2010-10-10-coulomier"
     - Brin dAunour: "2010-10-10-brindaunour"
+
   About the Author: "aboutme"
 livereload: true
 

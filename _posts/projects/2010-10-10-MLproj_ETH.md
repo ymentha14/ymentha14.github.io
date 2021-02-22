@@ -3,8 +3,12 @@ layout: page
 title: Machine Learning Competition ETH
 subtitle: 
 ---
+
 <p align="right">
-<i>In collaboration with Marijn Van der Meer</i><br>You can access the <a href="https://github.com/ymentha14/ML_competitionETH18"> github repo </a><br></p>
+<br>You can access the <a href="https://github.com/ymentha14/ML_competitionETH18"> github repo </a><br></p>
+
+<p class="used_tools">Key tools: python, sklearn, keras</p>
+
 ## Introduction
 As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one with 21000 entries and an unlabelled one with 9000 entries.The label was a discrete variable taking 10 distinct values (0-9) 
 The goal consisted in predicting the label of a test set of 9000 entries with the highest accuracy possible. Three baselines were defined (easy, middle hard)

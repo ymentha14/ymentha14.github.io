@@ -62,7 +62,7 @@
   
 
    
-  <meta property="og:description" content="You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...">
+  <meta property="og:description" content="Key tools: python, pytorch You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic...">
   
 
 
@@ -88,7 +88,7 @@
   
 
   
-  <meta name="twitter:description" content="You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...">
+  <meta name="twitter:description" content="Key tools: python, pytorch You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic...">
   
 
   
@@ -120,8 +120,18 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
             <div class="navlinks-children">
+              <a href="/2010-10-10-basket_rl">Hoops shooter</a>
+              <a href="/2010-10-10-emojis">Emojis Dataset</a>
               <a href="/2010-10-10-mt2gf">Mturk2gform</a>
               <a href="/2010-10-10-torchlurk">Torchlurk</a>
               <a href="/2010-10-10-speech">Speech Recognition</a>
@@ -142,14 +152,6 @@
             <div class="navlinks-children">
               <a href="https://pypi.org/project/mt2gf/">Mturk2gform</a>
               <a href="https://pypi.org/project/torchlurk/">Torchlurk</a>
-            </div>
-          </li>
-        <!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
-            <div class="navlinks-children">
-              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
             </div>
           </li>
         <!-- check if there is a second element, i.e. if the link is a parent one -->
@@ -247,7 +249,9 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <p align="right">
+      <p class="used_tools">Key tools: python, pytorch </p>
+
+<p align="right">
 <br />You can access the github repository <a href="https://github.com/ymentha14/DeepLClassifWeightSharing"> here </a><br />
 </p>
 
@@ -257,6 +261,11 @@
 
 <h2 id="implementation">Implementation</h2>
 <p>A particular focus was put on the hyperparameter optimization methods: genetic algorithms were implemented following the method described in <a href="https://link.springer.com/article/10.1007/BF00175354"> this paper</a>.</p>
+<div align="middle">
+<img src="/img/mnist_arch.png" />
+</div>
+<p><br />
+<i> Many architectures were explored in order to compare digits, both by first classifying the digits and then comparing it, and keeping logits of both pipelines in a double architecture. </i></p>
 
 
 	    

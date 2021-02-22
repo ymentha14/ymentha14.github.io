@@ -10,7 +10,7 @@
         <title>Torchlurk</title>
         <description>
           
-          Don't hesitate to visit the official Torchlurk's website or github repo! Description Torchlurk is a python library allowing you to easily visualize what your sequential CNN has learned by providing various feature such as Grad-CAM, saliency maps or filter visualization directly in a notebook or by serving it on a...
+          Don't hesitate to visit the official Torchlurk's website or github repo! Key tools: python, pytorch, flask, html/css/javascript, D3.js, Description Torchlurk is a python library allowing you to easily visualize what your sequential CNN has learned by providing various feature such as Grad-CAM, saliency maps or filter visualization directly in a...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-torchlurk/</link>
@@ -21,7 +21,7 @@
         <title>EmoDB Speech Classification</title>
         <description>
           
-          You can access the presentation here and the github repo here Introduction EmoDB, as known as Berlin Database of Emotional Speech, is a dataset presenting short speeches of 6 types of emotions in german. (anger, happiness, fear, disgust, neutral and boredom) The project, made in the context of a one-week...
+          You can access the presentation here and the github repo here Key tools: python, sklearn, pytorch, speechpy, git Introduction EmoDB, as known as Berlin Database of Emotional Speech, is a dataset presenting short speeches of 6 types of emotions in german. (anger, happiness, fear, disgust, neutral and boredom) The project,...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-speech/</link>
@@ -32,7 +32,7 @@
         <title>Mturk2gform</title>
         <description>
           
-          You can access the github repo here Introduction During my semester project at DLAB, I had to synchronize forms generation using Appscript and human labelling resources using amazon MTurk. As no tool allowed to effectively synchronize these two technologies, I implemented it myself and turned it into a pypi package...
+          You can access the github repo here Key tools: Amazon Mechanical Turk, Google Appscript, docker, python, jupyter ipywidgets Introduction During my semester project at DLAB, I had to synchronize forms generation using Appscript and human labelling resources using amazon MTurk. As no tool allowed to effectively synchronize these two technologies,...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-mt2gf/</link>
@@ -43,7 +43,7 @@
         <title>Network for Mouse Genetics</title>
         <description>
           
-          In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the expression of an organism’s genetic code, or its...
+          In collaboration with Raphael Reis, Gianni Giusto and Lucas ZweiliYou can access the full data story here Key tools: python, networkx, pygsp, sklearn, pytorch, git Introduction Wikipedia describes the phenotype as the composite of the organism’s observable characteristics or traits. (…) An organism’s phenotype results from two basic factors: the...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-mouse_gen/</link>
@@ -54,7 +54,7 @@
         <title>Yet Another MNIST classification project</title>
         <description>
           
-          You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic Algorithm perform as well...
+          Key tools: python, pytorch You can access the github repository here Introduction The present repository aims at presenting (yet another..) MNIST classification method, but tries to avoid state of the art pretrained models and rather implement the following features, as a deepL challenge and in order to assess whether Genetic...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-mnist/</link>
@@ -65,7 +65,7 @@
         <title>CheapTorch</title>
         <description>
           
-          You can access the github repo here and the report here Introduction After Facebook started storing Zetabytes of various private data about their users (among it H24 4k video recording of the users cats) a unique bug in history destroyed all instances of the Autograd Framework. Luckily, some coders were...
+          You can access the github repo here and the report here Key tools: python, pytorch Introduction After Facebook started storing Zetabytes of various private data about their users (among it H24 4k video recording of the users cats) a unique bug in history destroyed all instances of the Autograd Framework....
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-minideepl/</link>
@@ -76,7 +76,7 @@
         <title>Higg Boson Competition</title>
         <description>
           
-          In collaboration with Gianni Giusto and Maxime EparsYou can access the github repo Introduction As part of the CS-433 master course of Machine Learning, an AI crowd competition took was organized for the students: the goal consisted in developing ourself the methods used such as KFold cross-validation, stochastic gradient descent,...
+          In collaboration with Gianni Giusto and Maxime EparsYou can access the github repo Key tools: python, sklearn, pytorch, git Introduction As part of the CS-433 master course of Machine Learning, an AI crowd competition took was organized for the students: the goal consisted in developing ourself the methods used such...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-higg/</link>
@@ -84,10 +84,21 @@
       </item>
     
       <item>
+        <title>Emojis Dataset</title>
+        <description>
+          
+          You can access the github repository here You can access the full report here Key tools: python, docker, transformers, git, sqlite Introduction As a semester project, I chose the Emojis Dataset from Dlab. As emojis became a central part of digital communication in the last decades, being able to represent...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-emojis/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-emojis/</guid>
+      </item>
+    
+      <item>
         <title>C++ Multithreaded Coencapsulation</title>
         <description>
           Lab. of Systems Biology and Genetics (EPFL) - 
-          Introduction The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively. Microship used for coencapsulation: A. Cell channel B. Bead channel C....
+          Key tools: C++, C++ multithreading,PID controller, microfluidic chips controllers, OpenCv Introduction The goal of the project consisted in coencapsulation of micro-beads of RNA primers with cells into a single drop of lysis buffer using microships: both the cells and the beads would flow through channels A and B respectively. Microship...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-coencaps/</link>
@@ -95,10 +106,21 @@
       </item>
     
       <item>
+        <title>Let's shoot some hoops</title>
+        <description>
+          
+          Key tools: python, pytorch, docker, arduino, C, robotic, DIY Description As my adventure in ML did not lead to Reinforcement Learning yet and that I was very curious about this topic, I decided to start a project of my own to get to know this field a bit better. When...
+        </description>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:5000/2010-10-10-basket_rl/</link>
+        <guid isPermaLink="true">http://localhost:5000/2010-10-10-basket_rl/</guid>
+      </item>
+    
+      <item>
         <title>From Adam to W</title>
         <description>
           
-          In collaboration with Jonathan Besomi and Stefano HuberYou can access the full data story here Github Repo AdamW reference article Introduction The project consists in an overview and performance comparison of the AdamW optimizer over the classically used Adam on 3 state of the art datasets in order to assess...
+          In collaboration with Jonathan Besomi and Stefano HuberYou can access the full data story here Github Repo AdamW reference article Key tools: python, sklearn, pytorch Introduction The project consists in an overview and performance comparison of the AdamW optimizer over the classically used Adam on 3 state of the art...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-adamw/</link>
@@ -109,7 +131,7 @@
         <title>Data Awareness Dunnhumby dataset</title>
         <description>
           
-          In collaboration with Raphael Reis, Daniel Pechao and Jérôme LüscherYou can access the full data story here Introduction We proposed an in-depth analysis of the complete-journey dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby supermarket chain. Implementation Since more than 90% of our...
+          In collaboration with Raphael Reis, Daniel Pechao and Jérôme LüscherYou can access the full data story here Key tools: python, nltk, gensim, plotly, git, networkx Introduction We proposed an in-depth analysis of the complete-journey dunnhumby dataset: a file gathering information about consumer behaviors and demographic information for the dunnhumby supermarket...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-ada/</link>
@@ -120,7 +142,7 @@
         <title>A ML approach to determine chemical shifts in NMR</title>
         <description>
           Lab. of Computational Science and Modeling (EPFL) - 
-          In collaboration with Gianni Giusto and Maxime Epars You can access the full report here Introduction Nuclear magnetic resonance (NMR) spectroscopy is a method used to determine the chemical structure of a molecule based on the principle of the resonance frequency: any nuclear spin in a given structure depends on...
+          In collaboration with Gianni Giusto and Maxime Epars You can access the full report here Key tools: python, pytorch Introduction Nuclear magnetic resonance (NMR) spectroscopy is a method used to determine the chemical structure of a molecule based on the principle of the resonance frequency: any nuclear spin in a...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-NMR/</link>
@@ -131,7 +153,7 @@
         <title>Machine Learning Competition ETH</title>
         <description>
           
-          In collaboration with Marijn Van der MeerYou can access the github repo Introduction As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one...
+          You can access the github repo Key tools: python, sklearn, keras Introduction As part of the Bachelor Machine Learning course at ETH, we participated in a competition using the various techniques seen during the course. This competition consisted of 2 training datasets both having 139 features: a labelled one with...
         </description>
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-MLproj_ETH/</link>
@@ -331,57 +353,6 @@
         <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
         <link>http://localhost:5000/2010-10-10-briebrebis/</link>
         <guid isPermaLink="true">http://localhost:5000/2010-10-10-briebrebis/</guid>
-      </item>
-    
-      <item>
-        <title>Brie Bleu</title>
-        <description>
-          
-          
-
- 
- 
- 
-
-
-
-  
-   
-  
-  
-  
-    
-  
-  
-  
-  
-    
-  
-  
-
-
-
-  
-    
-  
-
-
-
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-briebleu/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-briebleu/</guid>
-      </item>
-    
-      <item>
-        <title>Brie à l'ail des ours</title>
-        <description>
-          
-          Fromage présentant une odeur crémante, arrière d’ail des ours, dominance ail des ours, très frais tend vers l’amertume sans pour autant l’atteindre vraiment évoque l’attaqeu de la truffe mais n’explose pas au nez fondant, similaire au beurre croûte très fine, imperceptible a la mastication un peu d’étable à l’odeur ,...
-        </description>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:5000/2010-10-10-brieADO/</link>
-        <guid isPermaLink="true">http://localhost:5000/2010-10-10-brieADO/</guid>
       </item>
     
   </channel>

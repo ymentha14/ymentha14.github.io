@@ -122,8 +122,18 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right"><!-- check if there is a second element, i.e. if the link is a parent one -->
           <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
+            <div class="navlinks-children">
+              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
+            </div>
+          </li>
+        <!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
+          <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
             <div class="navlinks-children">
+              <a href="/2010-10-10-basket_rl">Hoops shooter</a>
+              <a href="/2010-10-10-emojis">Emojis Dataset</a>
               <a href="/2010-10-10-mt2gf">Mturk2gform</a>
               <a href="/2010-10-10-torchlurk">Torchlurk</a>
               <a href="/2010-10-10-speech">Speech Recognition</a>
@@ -144,14 +154,6 @@
             <div class="navlinks-children">
               <a href="https://pypi.org/project/mt2gf/">Mturk2gform</a>
               <a href="https://pypi.org/project/torchlurk/">Torchlurk</a>
-            </div>
-          </li>
-        <!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li><a href="/2010-10-10-courses">Courses</a></li><!-- check if there is a second element, i.e. if the link is a parent one -->
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Cheat sheets</a>
-            <div class="navlinks-children">
-              <a href="/2010-10-10-ML_cheatsheet">Machine Learning</a>
             </div>
           </li>
         <!-- check if there is a second element, i.e. if the link is a parent one -->
@@ -262,6 +264,9 @@
       <p align="right"><i>In collaboration with Gianni Giusto and Maxime Epars</i><br /> 
 You can access the full report <a href="https://drive.google.com/file/d/1tVm0JO-4Iun7YRKL3Aj9q5Z8FvDQ8Usb/view?usp=sharing"> here </a>
 </p>
+
+<p class="used_tools">Key tools: python, pytorch </p>
+
 <h2 id="introduction">Introduction</h2>
 
 <p>Nuclear magnetic resonance (NMR) spectroscopy is a method used to determine the chemical structure of a molecule based on the principle of the resonance frequency: any nuclear spin in a given structure depends on its chemical local environment (i.e. <em>shielding</em>) The change in resonance frequency compared to a standard reference is represented by the chemical shift. Solid-state NMR represents a specific type of this powerful method tailored to amorphous solids where, by definition, magnetic fields are orientation-dependent. Accurate methods using plane wave density functional theory (DFT) have been developed to calculate chemical shifts. However, these techniques are computationally costly and hence fail to compute the latter for large or complex molecular structures.
